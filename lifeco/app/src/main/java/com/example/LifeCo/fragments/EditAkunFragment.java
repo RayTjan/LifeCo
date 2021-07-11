@@ -150,22 +150,22 @@ public class EditAkunFragment extends Fragment {
                 documentReference.addSnapshotListener(new EventListener<DocumentSnapshot>() {
                     @Override
                     public void onEvent(@javax.annotation.Nullable DocumentSnapshot documentSnapshot, @javax.annotation.Nullable FirebaseFirestoreException e) {
-                        inpNama.getEditText().setText(documentSnapshot.getString("nama"));
+                        inpNama.getEditText().setText(documentSnapshot.getString("name"));
                         inpEmail.getEditText().setText(documentSnapshot.getString("email"));
-                        inpAlamat.getEditText().setText(documentSnapshot.getString("alamat"));
-                        inpNoHP.getEditText().setText(documentSnapshot.getString("noHP"));
-                        inpNoKTP.getEditText().setText(documentSnapshot.getString("noKTP"));
-                        inpNoBPJS.getEditText().setText(documentSnapshot.getString("noBPJS"));
-                        inpNoAsuransi.getEditText().setText(documentSnapshot.getString("noAsuransi"));
-                        inpTanggalLahir.setText(documentSnapshot.getString("tanggalLahir"));
-                        inpPenyakitSendiri.setText(documentSnapshot.getString("penyakitSendiri"));
-                        inpPenyakitKeluarga.setText(documentSnapshot.getString("penyakitKeluarga"));
-                        inpKeluhanUtama.setText(documentSnapshot.getString("keluhanUtama"));
-                        inpObat.setText(documentSnapshot.getString("obat"));
-                        inpAlergiObat.setText(documentSnapshot.getString("alergiObat"));
-                        inpAlergiMakanan.setText(documentSnapshot.getString("alergiMakanan"));
-                        inpTekananDarah.getEditText().setText(documentSnapshot.getString("tekananDarah"));
-                        inpGulaDarah.getEditText().setText(documentSnapshot.getString("gulaDarah"));
+                        inpAlamat.getEditText().setText(documentSnapshot.getString("address"));
+                        inpNoHP.getEditText().setText(documentSnapshot.getString("phoneNumber"));
+                        inpNoKTP.getEditText().setText(documentSnapshot.getString("KTPNumber"));
+                        inpNoBPJS.getEditText().setText(documentSnapshot.getString("BPJSNumber"));
+                        inpNoAsuransi.getEditText().setText(documentSnapshot.getString("insuranceNumber"));
+                        inpTanggalLahir.setText(documentSnapshot.getString("birthdate"));
+                        inpPenyakitSendiri.setText(documentSnapshot.getString("ownDisease"));
+                        inpPenyakitKeluarga.setText(documentSnapshot.getString("geneticDisease"));
+                        inpKeluhanUtama.setText(documentSnapshot.getString("complaint"));
+                        inpObat.setText(documentSnapshot.getString("medicineIntake"));
+                        inpAlergiObat.setText(documentSnapshot.getString("medicineAllergy"));
+                        inpAlergiMakanan.setText(documentSnapshot.getString("foodAllergy"));
+                        inpTekananDarah.getEditText().setText(documentSnapshot.getString("bloodPressure"));
+                        inpGulaDarah.getEditText().setText(documentSnapshot.getString("bloodSugar"));
                     }
                 });
 
@@ -173,7 +173,7 @@ public class EditAkunFragment extends Fragment {
                 Map<String, Object> map = new HashMap<>();
 
                 if(userNama.length() != 0){
-                    map.put("nama", userNama);
+                    map.put("name", userNama);
                 }
                 if(userEmail.length() != 0){
                     map.put("email", userEmail);
@@ -184,52 +184,52 @@ public class EditAkunFragment extends Fragment {
                 if(userAlamat.length() != 0){
                     Toast.makeText(getActivity(),userAlamat ,
                             Toast.LENGTH_LONG).show();
-                    map.put("alamat", userAlamat);
+                    map.put("address", userAlamat);
                 }
                 if(userNoHP.length() != 0){
-                    map.put("noHP", userNoHP);
+                    map.put("phoneNumber", userNoHP);
                 }
                 if(userNoBPJS.length() != 0){
-                    map.put("noBPJS", userNoBPJS);
+                    map.put("BPJSNumber", userNoBPJS);
                 }
                 if(userNoKTP.length() != 0){
-                    map.put("noKTP", userNoKTP);
+                    map.put("KTPNumber", userNoKTP);
                 }
                 if(userTekananDarah.length() != 0){
-                    map.put("tekananDarah", userTekananDarah);
+                    map.put("bloodPressure", userTekananDarah);
                 }
                 if(userGulaDarah.length() != 0){
-                    map.put("gulaDarah", userGulaDarah);
+                    map.put("bloodSugar", userGulaDarah);
                 }
                 if(userGolDarah.length() != 0){
-                    map.put("golDarah", userGolDarah);
+                    map.put("bloodType", userGolDarah);
                 }
                 if(userJenisKelamin.length() != 0){
-                    map.put("jenisKelamin", userJenisKelamin);
+                    map.put("gender", userJenisKelamin);
                 }
                 if(userPenyakitSendiri.length() != 0){
-                    map.put("penyakitSendiri", userPenyakitSendiri);
+                    map.put("ownDisease", userPenyakitSendiri);
                 }
                 if(userPenyakitKeluarga.length() != 0){
-                    map.put("penyakitKeluarga", userPenyakitKeluarga);
+                    map.put("geneticDisease", userPenyakitKeluarga);
                 }
                 if(userKeluhanUtama.length() != 0){
-                    map.put("keluhanUtama", userKeluhanUtama);
+                    map.put("complaint", userKeluhanUtama);
                 }
                 if(userObat.length() != 0){
-                    map.put("obat", userObat);
+                    map.put("medicineIntake", userObat);
                 }
                 if(userAlergiObat.length() != 0){
-                    map.put("alergiObat", userAlergiObat);
+                    map.put("medicineAllergy", userAlergiObat);
                 }
                 if(userAlergiMakanan.length() != 0){
-                    map.put("alergiMakanan", userAlergiMakanan);
+                    map.put("foodAllergy", userAlergiMakanan);
                 }
                 if(userTanggalLahir.length() != 0){
-                    map.put("tanggalLahir", userTanggalLahir);
+                    map.put("birthdate", userTanggalLahir);
                 }
                 if(userNoAsuransi.length() != 0){
-                    map.put("noAsuransi", userNoAsuransi);
+                    map.put("insuranceNumber", userNoAsuransi);
                 }
 
                 docRef.update(map).addOnSuccessListener(new OnSuccessListener<Void>() {
