@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FEFCEB"
     tools:context="com.example.LifeCo.fragments.BarcodeFragment">
 
     <ImageView
@@ -22,7 +23,12 @@
         android:id="@+id/barcode_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#E56956"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
         android:text="Scan QR Code"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

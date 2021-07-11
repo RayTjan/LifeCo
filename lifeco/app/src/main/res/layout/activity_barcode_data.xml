@@ -10,7 +10,9 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="-38dp"
+        tools:layout_editor_absoluteY="16dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -30,19 +32,30 @@
                 app:title="Data Pasien"
                 app:titleTextColor="@android:color/white" />
 
+            <View
+                android:id="@+id/barcodeProfile"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="#E0DCA7"
+                app:layout_constraintBottom_toBottomOf="@+id/barcodeData_profile_pict"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/barcodeData_toolbar" />
+
             <TextView
                 android:id="@+id/barcodeData_nama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
                 android:layout_marginEnd="8dp"
                 android:text="Nama"
                 android:textSize="18sp"
                 android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/barcodeData_profile_pict"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.092"
                 app:layout_constraintStart_toEndOf="@+id/barcodeData_profile_pict"
-                app:layout_constraintTop_toTopOf="@+id/barcodeData_profile_pict" />
+                app:layout_constraintTop_toTopOf="@+id/barcodeData_profile_pict"
+                app:layout_constraintVertical_bias="0.40" />
 
             <ImageView
                 android:id="@+id/barcodeData_profile_pict"
@@ -54,29 +67,52 @@
                 app:layout_constraintTop_toBottomOf="@+id/barcodeData_toolbar"
                 app:srcCompat="@drawable/female" />
 
-            <View
-                android:id="@+id/divider"
+            <ImageView
+                android:id="@+id/barcodeBorder1"
                 android:layout_width="0dp"
-                android:layout_height="1dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="16dp"
-                android:background="?android:attr/listDivider"
+                android:layout_height="460dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="32dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/barcodeData_profile_pict" />
+                app:layout_constraintTop_toBottomOf="@+id/barcodeProfile"
+                app:srcCompat="@drawable/borderrectangle" />
+
+            <ImageView
+                android:id="@+id/barcodeBorder2"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginBottom="32dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/barcodeBorder1"
+                app:layout_constraintStart_toStartOf="@+id/barcodeBorder1"
+                app:layout_constraintTop_toBottomOf="@+id/barcodeBorder1"
+                app:srcCompat="@drawable/borderrectangle" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="32dp"
+                app:layout_constraintBottom_toTopOf="@+id/barcodeBorder1"
+                app:layout_constraintEnd_toEndOf="@+id/barcodeBorder1"
+                app:layout_constraintTop_toTopOf="@+id/barcodeBorder1"
+                app:srcCompat="@drawable/hati" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/txtKesehatanPribadi"
                 android:textSize="18sp"
                 android:textStyle="normal"
-                app:layout_constraintStart_toStartOf="@+id/barcodeData_profile_pict"
-                app:layout_constraintTop_toBottomOf="@+id/divider" />
+                app:layout_constraintStart_toStartOf="@+id/barcodeBorder1"
+                app:layout_constraintTop_toTopOf="@+id/barcodeBorder1" />
 
             <View
                 android:id="@+id/horizontalLine"
@@ -92,35 +128,37 @@
                 android:id="@+id/barcodeData_jeniskelamin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
                 android:text="Perempuan"
-                app:layout_constraintStart_toStartOf="@+id/textView8"
-                app:layout_constraintTop_toBottomOf="@+id/horizontalLine" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView36"
+                app:layout_constraintStart_toEndOf="@+id/imageView36"
+                app:layout_constraintTop_toTopOf="@+id/imageView36" />
 
             <TextView
                 android:id="@+id/barcodeData_goldarah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
+                android:layout_marginEnd="8dp"
                 android:text="A"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView43"
                 app:layout_constraintTop_toTopOf="@+id/barcodeData_jeniskelamin" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
                 android:text="@string/txtTekananDarah"
-                app:layout_constraintStart_toStartOf="@+id/barcodeData_jeniskelamin"
-                app:layout_constraintTop_toBottomOf="@+id/barcodeData_jeniskelamin" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView37"
+                app:layout_constraintStart_toEndOf="@+id/imageView37"
+                app:layout_constraintTop_toTopOf="@+id/imageView37" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mmhg"
-                app:layout_constraintEnd_toEndOf="@+id/barcodeData_goldarah"
+                app:layout_constraintEnd_toEndOf="@+id/imageView43"
                 app:layout_constraintTop_toTopOf="@+id/barcodeData_tekanandarah" />
 
             <TextView
@@ -135,10 +173,11 @@
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
                 android:text="@string/inpGulaDarahRegis"
-                app:layout_constraintStart_toStartOf="@+id/textView11"
-                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView38"
+                app:layout_constraintStart_toEndOf="@+id/imageView38"
+                app:layout_constraintTop_toTopOf="@+id/imageView38" />
 
             <TextView
                 android:id="@+id/textView15"
@@ -160,60 +199,54 @@
                 android:id="@+id/barcodeData_obat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
                 android:text="Panadol"
-                app:layout_constraintStart_toStartOf="@+id/textView14"
-                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+                app:layout_constraintStart_toEndOf="@+id/imageView39"
+                app:layout_constraintTop_toTopOf="@+id/imageView39" />
 
             <TextView
                 android:id="@+id/barcodeData_alergiobat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
                 android:text="Tidak Ada"
-                app:layout_constraintStart_toStartOf="@+id/barcodeData_obat"
-                app:layout_constraintTop_toBottomOf="@+id/barcodeData_obat" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView40"
+                app:layout_constraintStart_toEndOf="@+id/imageView40"
+                app:layout_constraintTop_toTopOf="@+id/imageView40" />
 
             <TextView
                 android:id="@+id/barcodeData_alergimakanan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
                 android:text="Tidak Ada"
-                app:layout_constraintStart_toStartOf="@+id/barcodeData_alergiobat"
-                app:layout_constraintTop_toBottomOf="@+id/barcodeData_alergiobat" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView41"
+                app:layout_constraintStart_toEndOf="@+id/imageView41"
+                app:layout_constraintTop_toTopOf="@+id/imageView41" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
                 android:text="@string/txtKeluhan"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/barcodeData_alergimakanan"
-                app:layout_constraintTop_toBottomOf="@+id/barcodeData_alergimakanan" />
-
-            <View
-                android:id="@+id/divider2"
-                android:layout_width="0dp"
-                android:layout_height="1dp"
-                android:layout_marginTop="16dp"
-                android:background="?android:attr/listDivider"
-                app:layout_constraintEnd_toEndOf="@+id/divider"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="@+id/divider"
-                app:layout_constraintTop_toBottomOf="@+id/barcodeData_keluhanutama" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView42"
+                app:layout_constraintStart_toEndOf="@+id/imageView42"
+                app:layout_constraintTop_toTopOf="@+id/imageView42" />
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/textRiwayatKesehatan"
                 android:textSize="18sp"
-                app:layout_constraintStart_toStartOf="@+id/divider2"
-                app:layout_constraintTop_toBottomOf="@+id/divider2" />
+                app:layout_constraintStart_toStartOf="@+id/barcodeBorder2"
+                app:layout_constraintTop_toTopOf="@+id/barcodeBorder2" />
 
             <View
                 android:id="@+id/horizontalLine2"
@@ -229,28 +262,130 @@
                 android:id="@+id/barcodeData_penyakitsendiri"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
                 android:text="Maag"
-                app:layout_constraintStart_toStartOf="@+id/textView21"
-                app:layout_constraintTop_toBottomOf="@+id/horizontalLine2" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView48"
+                app:layout_constraintStart_toEndOf="@+id/imageView48"
+                app:layout_constraintTop_toTopOf="@+id/imageView48" />
 
             <TextView
                 android:id="@+id/barcodeData_penyakitkeluarga"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
                 android:text="Diabetes"
-                app:layout_constraintStart_toStartOf="@+id/barcodeData_penyakitsendiri"
-                app:layout_constraintTop_toBottomOf="@+id/barcodeData_penyakitsendiri" />
+                app:layout_constraintBottom_toBottomOf="@+id/imageView49"
+                app:layout_constraintStart_toEndOf="@+id/imageView49"
+                app:layout_constraintTop_toTopOf="@+id/imageView49" />
 
             <TextView
                 android:id="@+id/barcodeData_keluhanutama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:text="Migraine"
                 app:layout_constraintStart_toStartOf="@+id/textView20"
-                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView42" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/horizontalLine"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalLine"
+                app:srcCompat="@drawable/person" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/imageView36"
+                app:layout_constraintTop_toBottomOf="@+id/imageView36"
+                app:srcCompat="@drawable/bp" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/imageView37"
+                app:layout_constraintTop_toBottomOf="@+id/imageView37"
+                app:srcCompat="@drawable/sugar" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/imageView38"
+                app:layout_constraintTop_toBottomOf="@+id/imageView38"
+                app:srcCompat="@drawable/obat" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/imageView39"
+                app:layout_constraintTop_toBottomOf="@+id/imageView39"
+                app:srcCompat="@drawable/obat" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/imageView40"
+                app:layout_constraintTop_toBottomOf="@+id/imageView40"
+                app:srcCompat="@drawable/food" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/imageView41"
+                app:layout_constraintTop_toBottomOf="@+id/imageView41"
+                app:srcCompat="@drawable/sick" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="@+id/barcodeBorder1"
+                app:layout_constraintTop_toTopOf="@+id/imageView36"
+                app:srcCompat="@drawable/bt" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:layout_constraintBottom_toTopOf="@+id/barcodeBorder2"
+                app:layout_constraintEnd_toEndOf="@+id/imageView45"
+                app:layout_constraintStart_toStartOf="@+id/imageView45"
+                app:layout_constraintTop_toTopOf="@+id/barcodeBorder2"
+                app:srcCompat="@drawable/riwayat" />
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/horizontalLine2"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalLine2"
+                app:srcCompat="@drawable/sick" />
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/imageView48"
+                app:layout_constraintTop_toBottomOf="@+id/imageView48"
+                app:srcCompat="@drawable/sick" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>

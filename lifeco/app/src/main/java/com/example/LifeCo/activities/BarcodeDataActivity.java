@@ -1,6 +1,7 @@
 package com.example.LifeCo.activities;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -54,17 +55,17 @@ public class BarcodeDataActivity extends AppCompatActivity {
         documentReference.addSnapshotListener(new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@javax.annotation.Nullable DocumentSnapshot documentSnapshot, @javax.annotation.Nullable FirebaseFirestoreException e) {
-                barcodeData_nama.setText(documentSnapshot.getString("nama"));
-                barcodeData_jeniskelamin.setText(documentSnapshot.getString("jenisKelamin"));
-                barcodeData_goldarah.setText(documentSnapshot.getString("golDarah"));
-                barcodeData_penyakitsendiri.setText(documentSnapshot.getString("penyakitSendiri"));
-                barcodeData_penyakitkeluarga.setText(documentSnapshot.getString("penyakitKeluarga"));
-                barcodeData_keluhanutama.setText(documentSnapshot.getString("keluhanUtama"));
-                barcodeData_obat.setText(documentSnapshot.getString("obat"));
-                barcodeData_alergiobat.setText(documentSnapshot.getString("alergiObat"));
-                barcodeData_alergimakanan.setText(documentSnapshot.getString("alergiMakanan"));
-                barcodeData_tekanandarah.setText(documentSnapshot.getString("tekananDarah"));
-                barcodeData_guladarah.setText(documentSnapshot.getString("gulaDarah"));
+                barcodeData_nama.setText(documentSnapshot.getString("name"));
+                barcodeData_jeniskelamin.setText(documentSnapshot.getString("gender"));
+                barcodeData_goldarah.setText(documentSnapshot.getString("bloodType"));
+                barcodeData_penyakitsendiri.setText(documentSnapshot.getString("ownDisease"));
+                barcodeData_penyakitkeluarga.setText(documentSnapshot.getString("geneticDisease"));
+                barcodeData_keluhanutama.setText(documentSnapshot.getString("complaint"));
+                barcodeData_obat.setText(documentSnapshot.getString("medicineIntake"));
+                barcodeData_alergiobat.setText(documentSnapshot.getString("medicineAllergy"));
+                barcodeData_alergimakanan.setText(documentSnapshot.getString("foodAllergy"));
+                barcodeData_tekanandarah.setText(documentSnapshot.getString("bloodPressure"));
+                barcodeData_guladarah.setText(documentSnapshot.getString("bloodSugar"));
             }
         });
     }

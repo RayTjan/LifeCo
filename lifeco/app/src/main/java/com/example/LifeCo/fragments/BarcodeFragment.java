@@ -34,9 +34,10 @@ public class BarcodeFragment extends Fragment {
     FirebaseAuth mAuth;
 
     private View view;
-    private String userID;
+    private String userID, scannedUserID;
     private ImageView barcode_imageView;
     private Button barcode_button;
+    private int barcodeSize;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -48,9 +49,11 @@ public class BarcodeFragment extends Fragment {
         mAuth = FirebaseAuth.getInstance();
         userID = mAuth.getCurrentUser().getUid();
 
+        barcodeSize = 600;
+
         try {
             BarcodeEncoder barcodeEncoder = new BarcodeEncoder();
-            Bitmap bitmap = barcodeEncoder.encodeBitmap(userID, BarcodeFormat.QR_CODE, 400, 400);
+            Bitmap bitmap = barcodeEncoder.encodeBitmap(userID, BarcodeFormat.QR_CODE, barcodeSize, barcodeSize);
             barcode_imageView.setImageBitmap(bitmap);
         } catch (WriterException e) {
             e.printStackTrace();
@@ -87,14 +90,15 @@ public class BarcodeFragment extends Fragment {
 //                }
 //            });
 //            builder.show();
+
+            scannedUserID = intentResult.getContents();
+
             Intent intent = new Intent(getContext(), BarcodeDataActivity.class);
-            intent.putExtra("userID", userID);
+            intent.putExtra("userID", scannedUserID);
             startActivity(intent);
 
         }else{
             Toast.makeText(getContext(), "OOPS... That doesn't look like a barcode, please try again!", Toast.LENGTH_SHORT).show();
         }
-
-
     }
 }
