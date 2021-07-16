@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -17,6 +18,16 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -25,9 +36,10 @@ public class LoginActivity extends AppCompatActivity {
     String email, password;
     TextInputLayout emailLogin, passwordLogin;
     TextView loginStatus;
-
+    FirebaseFirestore fStore;
     FirebaseAuth fAuth;
-
+    String currentUserId;
+    DatabaseReference targetRef;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,13 +51,7 @@ public class LoginActivity extends AppCompatActivity {
         passwordLogin = findViewById(R.id.inputPasswordLogin);
         loginStatus = findViewById(R.id.textLoginStatus);
         fAuth = FirebaseAuth.getInstance();
-        if (fAuth.getCurrentUser() != null) {
-            // User is logged in
-            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-            String account = "pasien";
-            intent.putExtra("account",account);
-            startActivity(intent);
-        }
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,8 +66,8 @@ public class LoginActivity extends AppCompatActivity {
                     passwordLogin.setError("Silahkan isi password Anda.");
                     return;
                 }
-                if(password.length() <= 6){
-                    passwordLogin.setError("Password harus melebihi 6 karakter.");
+                if(password.length() < 6){
+                    passwordLogin.setError("Password harus 6 karakter atau lebih.");
                     return;
                 }
 
@@ -71,11 +77,40 @@ public class LoginActivity extends AppCompatActivity {
                         if(task.isSuccessful()){
                             Toast.makeText(LoginActivity.this, "User Logged In.", Toast.LENGTH_SHORT).show();
 
-                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                            String account = "pasien";
-                            intent.putExtra("account",account);
-                            startActivity(intent);
-                            finish();
+                                currentUserId = fAuth.getCurrentUser().getUid();
+                                targetRef = FirebaseDatabase.getInstance().getReference().child("Users").child(currentUserId);
+                                Log.d("Logged in Id:", currentUserId);
+                                targetRef.addValueEventListener(new ValueEventListener() {
+                                    @Override
+                                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                        Log.d("checking 1", "hi");
+                                        if (dataSnapshot.exists()) {
+                                            Log.d("checking 2", "hi " + dataSnapshot.child("account").getValue());
+                                            if((dataSnapshot.child("account").getValue()).equals("patient")){
+                                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                                String account = "pasien";
+                                                intent.putExtra("account",account);
+                                                startActivity(intent);
+                                                finish();
+                                            } else if((dataSnapshot.child("account").getValue()).equals("ambulance")){
+                                                Log.d("checking account", "hi");
+                                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                                String account = "ambulans";
+                                                intent.putExtra("account",account);
+                                                startActivity(intent);
+                                                finish();
+                                            }
+                                        } else {
+                                            Log.d("ERROR", "Empty snapshot");
+                                        }
+                                    }
+
+                                    @Override
+                                    public void onCancelled(@NonNull DatabaseError databaseError) {
+                                        Log.d("ERROR", databaseError.toString());
+                                    }
+                                });
+
                         }else {
                             Toast.makeText(LoginActivity.this, "Tidak dapat log in akun.", Toast.LENGTH_SHORT).show();
                         }
@@ -87,8 +122,7 @@ public class LoginActivity extends AppCompatActivity {
         btnDaftarAkun.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, RegistrationActivity.class);
-
+                Intent intent = new Intent(LoginActivity.this, welcome.class);
                 startActivity(intent);
             }
         });

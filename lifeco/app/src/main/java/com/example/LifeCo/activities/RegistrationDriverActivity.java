@@ -162,6 +162,7 @@ public class RegistrationDriverActivity extends AppCompatActivity {
                     ambulance.setUid(userid);
                     ambulance.setName(nama);
                     ambulance.setEmail(email);
+                    ambulance.setAccount("ambulance");
                     ambulance.setPassword(password);
                     ambulance.setPhoneNumber(noHP);
                     ambulance.setHospital(rumahSakit);

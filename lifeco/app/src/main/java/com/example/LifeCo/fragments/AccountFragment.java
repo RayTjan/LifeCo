@@ -115,9 +115,11 @@ public class AccountFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 FirebaseAuth.getInstance().signOut();
-                Intent intent = new Intent(getActivity(), SplashScreenNew.class);
-                startActivity(intent);
-                getActivity().finish();
+                if (FirebaseAuth.getInstance().getUid() == null) {
+                    Intent intent = new Intent(getActivity(), SplashScreenNew.class);
+                    startActivity(intent);
+                    getActivity().finish();
+                }
             }
         });
     }
