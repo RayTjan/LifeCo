@@ -60,8 +60,8 @@ public class SOCSNotesCreateFragment extends BottomSheetDialogFragment {
     }
 
     private void createNote(String title) {
-        CollectionReference noteReference = fStore.collection("user_collection")
-                .document(userID).collection("note_collection");
+        CollectionReference noteReference = fStore.collection("Users")
+                .document(userID).collection("Notes");
 
         Map<String, Object> note = new HashMap<>();
         note.put("title", title);

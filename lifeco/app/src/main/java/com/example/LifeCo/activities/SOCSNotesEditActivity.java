@@ -26,7 +26,7 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SOCSNotesActivity extends AppCompatActivity {
+public class SOCSNotesEditActivity extends AppCompatActivity {
 
     private Toolbar editNote_toolbar;
     private TextInputLayout editNote_title_textInput, editNote_description_textInput;
@@ -40,7 +40,7 @@ public class SOCSNotesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_socsnotes);
+        setContentView(R.layout.activity_socs_notes_edit);
 
         mAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
@@ -48,8 +48,8 @@ public class SOCSNotesActivity extends AppCompatActivity {
 
         initialize();
 
-        DocumentReference noteReference = fStore.collection("user_collection")
-                .document(userID).collection("note_collection")
+        DocumentReference noteReference = fStore.collection("Users")
+                .document(userID).collection("Notes")
                 .document(noteId);
 
         noteReference.addSnapshotListener(new EventListener<DocumentSnapshot>() {
@@ -77,8 +77,8 @@ public class SOCSNotesActivity extends AppCompatActivity {
         String title = editNote_title_textInput.getEditText().getText().toString().trim();
         String description = editNote_description_textInput.getEditText().getText().toString().trim();
 
-        DocumentReference noteReference = fStore.collection("user_collection")
-                .document(userID).collection("note_collection")
+        DocumentReference noteReference = fStore.collection("Users")
+                .document(userID).collection("Notes")
                 .document(noteId);
 
         Map<String, Object> note = new HashMap<>();
@@ -103,28 +103,28 @@ public class SOCSNotesActivity extends AppCompatActivity {
             }
         });
 
-//        editNote_toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
-//            @Override
-//            public boolean onMenuItemClick(MenuItem item) {
-//                switch (item.getItemId()) {
-//                    case R.id.editNote_menu_delete:
-//                        DocumentReference noteReference = fStore.collection("user_collection")
-//                                .document(userID).collection("note_collection").document(noteId);
-//
-//                        noteReference.delete().addOnFailureListener(new OnFailureListener() {
-//                            @Override
-//                            public void onFailure(@NonNull Exception e) {
-//                                Log.d("error", e.toString());
-//                            }
-//                        });
-//
-//                        finish();
-//                        break;
-//                }
-//
-//                return true;
-//            }
-//        });
+        editNote_toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.editNote_menu_delete:
+                        DocumentReference noteReference = fStore.collection("Users")
+                                .document(userID).collection("Notes").document(noteId);
+
+                        noteReference.delete().addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                Log.d("error", e.toString());
+                            }
+                        });
+
+                        finish();
+                        break;
+                }
+
+                return true;
+            }
+        });
     }
 
     private void initialize() {

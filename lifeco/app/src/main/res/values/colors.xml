@@ -3,4 +3,9 @@
     <color name="colorPrimary">#594F57</color>
     <color name="colorPrimaryDark">#3F363F</color>
     <color name="colorAccent">#DD403A</color>
+
+    <!--  Create Note  -->
+    <color name="saveButtonPressed">#1FFFFFFF</color>
+    <color name="saveButtonEnabled">#E56956</color>
+    <color name="saveButtonDisabled">#1FE56956</color>
 </resources>

@@ -2,9 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.LifeCo.activities.SOCSNotesActivity">
+    android:background="#FEFCEB"
+    tools:context="com.example.LifeCo.activities.SOCSNotesEditActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/editNote_toolbar"
@@ -12,24 +14,31 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
+        android:theme="@style/ToolbarColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navigationIcon="@drawable/quantum_ic_arrow_back_grey600_24" />
+        app:menu="@menu/socs_notes_edit_menu"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        app:title="Note" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editNote_title_textInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:hintEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editNote_toolbar">
 
         <com.google.android.material.textfield.TextInputEditText
+            style="@style/TextAppearance.MaterialComponents.Headline6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="hint" />
+            android:background="@android:color/transparent"
+            android:hint="Title"
+            android:padding="16dp"
+            android:textColor="@color/quantum_grey900" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -43,6 +52,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="hint" />
+            android:background="@android:color/transparent"
+            android:hint="Description"
+            android:padding="16dp"
+            android:textColor="@color/quantum_grey900" />
     </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
