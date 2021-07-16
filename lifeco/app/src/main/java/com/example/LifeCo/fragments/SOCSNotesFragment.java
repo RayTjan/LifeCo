@@ -15,8 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SearchView;
 
-import com.example.LifeCo.model.Note;
-import com.example.LifeCo.model.OnCardClickListener;
+import com.example.LifeCo.Adapter.NRVAdapter;
 import com.example.lifeco.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
@@ -29,14 +28,15 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-public class SOCSNotesFragment extends Fragment implements OnCardClickListener {
+public class SOCSNotesFragment extends Fragment {
 
-    private View view;
-
-    private RecyclerView note_recyclerView;
-    private FloatingActionButton note_FAB_create;
-    private ArrayList<Note> noteList;
-    private NoteRVAdapter adapter;
+    View view;
+    RecyclerView note_recyclerView;
+    SwipeRefreshLayout note_swipeRefresh;
+    FloatingActionButton note_FAB_create;
+    SearchView note_search_input;
+    ArrayList<Note> noteList;
+    NRVAdapter adapter;
 
     Query noteReference;
 
@@ -57,8 +57,10 @@ public class SOCSNotesFragment extends Fragment implements OnCardClickListener {
         initialize();
 
         loadNote();
+//        setSearch();
 
         setListener();
+        setSwipeRefresh();
 
         return view;
     }
@@ -74,6 +76,19 @@ public class SOCSNotesFragment extends Fragment implements OnCardClickListener {
 
         note_search_input.clearFocus();
         note_search_input.setQuery("", false);
+    }
+
+    @Override
+    public void setSwipeRefresh() {
+        note_swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                noteList.clear();
+                loadNote();
+
+                note_swipeRefresh.setRefreshing(false);
+            }
+        });
     }
 
     private void setListener() {
@@ -113,7 +128,9 @@ public class SOCSNotesFragment extends Fragment implements OnCardClickListener {
 
     private void initialize() {
         note_recyclerView = view.findViewById(R.id.note_recyclerView);
+        note_swipeRefresh = view.findViewById(R.id.note_swipeRefresh);
         note_FAB_create = view.findViewById(R.id.note_FAB_create);
+        note_search_input = view.findViewById(R.id.note_search_input);
         noteList = new ArrayList<Note>();
         adapter = new NoteRVAdapter(noteList, this);
 
