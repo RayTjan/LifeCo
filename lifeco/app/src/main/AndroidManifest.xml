@@ -81,7 +81,6 @@
         <activity android:name="com.example.LifeCo.activities.MessageActivity" />
         <activity android:name="com.example.LifeCo.activities.SplashScreenActivity" />
         <activity android:name="com.example.LifeCo.fragments.Capture" />
-        <activity android:name="com.example.LifeCo.activities.socsActivity"></activity>
     </application>
 
 </manifest>
