@@ -16,6 +16,9 @@ import android.view.ViewGroup;
 import android.widget.SearchView;
 
 import com.example.LifeCo.Adapter.NRVAdapter;
+import com.example.LifeCo.activities.SOCSNotesActivity;
+import com.example.LifeCo.model.Note;
+import com.example.LifeCo.model.OnCardClickListener;
 import com.example.lifeco.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
@@ -28,7 +31,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-public class SOCSNotesFragment extends Fragment {
+public class SOCSNotesFragment extends Fragment implements OnCardClickListener {
 
     View view;
     RecyclerView note_recyclerView;
@@ -60,7 +63,7 @@ public class SOCSNotesFragment extends Fragment {
 //        setSearch();
 
         setListener();
-        setSwipeRefresh();
+//        setSwipeRefresh();
 
         return view;
     }
@@ -70,7 +73,7 @@ public class SOCSNotesFragment extends Fragment {
         Note note = noteList.get(position);
         String noteId = note.NoteId;
 
-        Intent intent = new Intent(getContext(), EditNoteActivity.class);
+        Intent intent = new Intent(getContext(), SOCSNotesActivity.class);
         intent.putExtra("noteId", noteId);
         startActivity(intent);
 
@@ -78,25 +81,25 @@ public class SOCSNotesFragment extends Fragment {
         note_search_input.setQuery("", false);
     }
 
-    @Override
-    public void setSwipeRefresh() {
-        note_swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                noteList.clear();
-                loadNote();
-
-                note_swipeRefresh.setRefreshing(false);
-            }
-        });
-    }
+//    @Override
+//    public void setSwipeRefresh() {
+//        note_swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+//            @Override
+//            public void onRefresh() {
+//                noteList.clear();
+//                loadNote();
+//
+//                note_swipeRefresh.setRefreshing(false);
+//            }
+//        });
+//    }
 
     private void setListener() {
         note_FAB_create.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentManager fm = getParentFragmentManager();
-                CreateNoteFragment createNote = new CreateNoteFragment(NoteFragment.this);
+                FragmentManager fm = getFragmentManager();
+                SOCSNotesCreateFragment createNote = new SOCSNotesCreateFragment();
                 createNote.show(fm, null);
             }
         });
@@ -128,11 +131,11 @@ public class SOCSNotesFragment extends Fragment {
 
     private void initialize() {
         note_recyclerView = view.findViewById(R.id.note_recyclerView);
-        note_swipeRefresh = view.findViewById(R.id.note_swipeRefresh);
+//        note_swipeRefresh = view.findViewById(R.id.note_swipeRefresh);
         note_FAB_create = view.findViewById(R.id.note_FAB_create);
-        note_search_input = view.findViewById(R.id.note_search_input);
+//        note_search_input = view.findViewById(R.id.note_search_input);
         noteList = new ArrayList<Note>();
-        adapter = new NoteRVAdapter(noteList, this);
+        adapter = new NRVAdapter(noteList, this);
 
         RecyclerView.LayoutManager manager = new LinearLayoutManager(getContext());
         note_recyclerView.setLayoutManager(manager);
