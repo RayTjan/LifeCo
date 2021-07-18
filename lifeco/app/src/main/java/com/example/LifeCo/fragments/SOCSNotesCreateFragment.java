@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.example.lifeco.R;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -82,7 +83,7 @@ public class SOCSNotesCreateFragment extends BottomSheetDialogFragment {
         createNote_save_imageButton.setEnabled(validateTitle);
     }
 
-    private void setListener(){
+    private void setListener() {
         createNote_title_textInput.getEditText().addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -117,7 +118,7 @@ public class SOCSNotesCreateFragment extends BottomSheetDialogFragment {
                 createNote(title);
             }
         });
-    };
+    }
 
     private void initialize() {
         createNote_title_textInput = view.findViewById(R.id.createNote_title_textInput);

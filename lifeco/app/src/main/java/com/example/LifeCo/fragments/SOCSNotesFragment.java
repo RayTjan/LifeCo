@@ -36,7 +36,6 @@ public class SOCSNotesFragment extends Fragment implements OnCardClickListener {
     private View view;
     private RecyclerView note_recyclerView;
     private FloatingActionButton note_FAB_create;
-    private SearchView note_search_input;
     private ArrayList<Note> noteList;
     private NRVAdapter adapter;
 
@@ -71,9 +70,6 @@ public class SOCSNotesFragment extends Fragment implements OnCardClickListener {
         Intent intent = new Intent(getContext(), SOCSNotesEditActivity.class);
         intent.putExtra("noteId", noteId);
         startActivity(intent);
-
-        note_search_input.clearFocus();
-        note_search_input.setQuery("", false);
     }
 
     private void setListener() {

@@ -2,14 +2,17 @@ package com.example.LifeCo.activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.lifeco.R;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -73,7 +76,7 @@ public class SOCSNotesEditActivity extends AppCompatActivity {
         }
     }
 
-    private void saveNote(){
+    private void saveNote() {
         String title = editNote_title_textInput.getEditText().getText().toString().trim();
         String description = editNote_description_textInput.getEditText().getText().toString().trim();
 
@@ -108,17 +111,35 @@ public class SOCSNotesEditActivity extends AppCompatActivity {
             public boolean onMenuItemClick(MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.editNote_menu_delete:
-                        DocumentReference noteReference = fStore.collection("Users")
-                                .document(userID).collection("Notes").document(noteId);
+                        AlertDialog.Builder dialog = new AlertDialog.Builder(SOCSNotesEditActivity.this);
+                        dialog.setTitle("Delete note")
+                                .setMessage("Are you sure you want to delete this note?" +
+                                        "\n\nThis action cannot be undone!")
+                                .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialogInterface, int i) {
+                                        DocumentReference noteReference = fStore.collection("Users")
+                                                .document(userID).collection("Notes").document(noteId);
 
-                        noteReference.delete().addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                Log.d("error", e.toString());
-                            }
-                        });
+                                        noteReference.delete().addOnFailureListener(new OnFailureListener() {
+                                            @Override
+                                            public void onFailure(@NonNull Exception e) {
+                                                Log.d("error", e.toString());
+                                            }
+                                        });
 
-                        finish();
+                                        Toast.makeText(SOCSNotesEditActivity.this, "Note deleted", Toast.LENGTH_SHORT).show();
+
+                                        finish();
+                                    }
+                                })
+                                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialogInterface, int i) {
+                                        dialogInterface.cancel();
+                                    }
+                                })
+                                .show();
                         break;
                 }
 
