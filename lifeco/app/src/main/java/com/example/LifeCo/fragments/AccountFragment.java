@@ -115,6 +115,7 @@ public class AccountFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 FirebaseAuth.getInstance().signOut();
+                FirebaseFirestore.getInstance().terminate();
                 if (FirebaseAuth.getInstance().getUid() == null) {
                     Intent intent = new Intent(getActivity(), SplashScreenNew.class);
                     startActivity(intent);

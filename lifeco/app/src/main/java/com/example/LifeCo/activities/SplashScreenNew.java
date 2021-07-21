@@ -62,6 +62,13 @@ public class SplashScreenNew extends AppCompatActivity {
                                     intent.putExtra("account",account);
                                     startActivity(intent);
                                     finish();
+                                } else if ((dataSnapshot.child("account").getValue()).equals("SOCS")) {
+                                    Log.d("checking account", "hi");
+                                    Intent intent = new Intent(SplashScreenNew.this, SOCSMainActivity.class);
+                                    String account = "socs";
+                                    intent.putExtra("account", account);
+                                    startActivity(intent);
+                                    finish();
                                 }
                             } else {
                                 Log.d("ERROR", "Empty snapshot");

@@ -59,6 +59,7 @@ public class SOCSMainActivity extends AppCompatActivity {
                 return false;
             }
         });
+        bottomNavigationView.setSelectedItemId(R.id.socs_menu_chat);
     }
 
     private void loadFragment(Fragment fragment) {
