@@ -5,19 +5,10 @@
     android:id="@+id/splash_cons"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E0DCA7"
+    android:background="#FFFFFF
+"
     tools:context="com.example.LifeCo.activities.SplashScreenNew"
     tools:deviceIds="wear">
-
-    <ImageView
-        android:id="@+id/imageView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/lifeco"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/obatsplash1"
@@ -36,4 +27,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/obat2" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="330dp"
+        android:layout_height="226dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dokterkit" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="202dp"
+        android:layout_height="187dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView35"
+        app:layout_constraintVertical_bias="0.259"
+        app:srcCompat="@drawable/uc" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/swayanangka" />
 </androidx.constraintlayout.widget.ConstraintLayout>

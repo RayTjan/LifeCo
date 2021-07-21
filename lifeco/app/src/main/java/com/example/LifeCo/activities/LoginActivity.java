@@ -100,6 +100,14 @@ public class LoginActivity extends AppCompatActivity {
                                                 startActivity(intent);
                                                 finish();
                                             }
+                                            else if((dataSnapshot.child("account").getValue()).equals("SOCS")){
+                                                Log.d("checking account", "hi");
+                                                Intent intent = new Intent(LoginActivity.this, SOCSMainActivity.class);
+                                                String account = "SOCS";
+                                                intent.putExtra("account",account);
+                                                startActivity(intent);
+                                                finish();
+                                            }
                                         } else {
                                             Log.d("ERROR", "Empty snapshot");
                                         }

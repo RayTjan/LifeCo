@@ -17,14 +17,15 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/icon"
-        android:label="LIFECO"
+        android:icon="@drawable/dokterkit"
+        android:label="dokterkit"
         android:largeHeap="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/dokterkit"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.example.LifeCo.activities.SOCSNotesEditActivity"></activity>
+        <activity android:name="com.example.LifeCo.activities.RegistrationSOCSActivity"></activity>
+        <activity android:name="com.example.LifeCo.activities.SOCSNotesEditActivity" />
         <activity android:name="com.example.LifeCo.activities.SOCSMainActivity" />
         <activity android:name="com.example.LifeCo.activities.AddGroupActivity" />
         <activity android:name="com.example.LifeCo.activities.GroupMessageActivity" />

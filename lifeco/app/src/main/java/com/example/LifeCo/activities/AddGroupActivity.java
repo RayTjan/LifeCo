@@ -16,18 +16,29 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.storage.StorageManager;
 import android.provider.MediaStore;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.lifeco.R;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
 import java.net.URL;
+import java.util.HashMap;
 
 public class AddGroupActivity extends AppCompatActivity {
 
@@ -107,7 +118,107 @@ public class AddGroupActivity extends AppCompatActivity {
 
         //input title and desc
         String groupTitle = groupNameTextLayout.getEditText().getText().toString().trim();
-        String groupDesc = groupDescTextLayout.getEditText().getText().toString().trim();
+        String groupDescription = groupDescTextLayout.getEditText().getText().toString().trim();
+        //validation
+        if(TextUtils.isEmpty(groupTitle)){
+            Toast.makeText(this, "Please enter group title...", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        progressDialog.show();
+
+        //timestamp: for groupicon image, groupId, timeCreated, etc
+        String g_timestamp = "" + System.currentTimeMillis();
+        if (image_uri == null){
+            //create group without no image
+            createGroup(
+                    "" + g_timestamp,
+                    "" + groupTitle,
+                    "" + groupDescription,
+                    ""
+            );
+        }else{
+            //create group with no image
+            //upload image
+            //image name and path
+            String fileNameAndPath = "Group_Imgs/" + "image" + g_timestamp;
+
+            StorageReference storageReference = FirebaseStorage.getInstance().getReference(fileNameAndPath);
+            storageReference.putFile(image_uri)
+            .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                @Override
+                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                    //image uploaded, get url
+                    Task<Uri> p_uriTask = taskSnapshot.getStorage().getDownloadUrl();
+                    while (!p_uriTask.isSuccessful());
+                    Uri p_downloadUri = p_uriTask.getResult();
+                    if (p_uriTask.isSuccessful()){
+                        createGroup(
+                                "" + g_timestamp,
+                                "" + groupTitle,
+                                "" + groupDescription,
+                                "" + p_downloadUri
+                        );
+                    }
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    progressDialog.dismiss();
+                    Toast.makeText(AddGroupActivity.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
+    }
+
+    private void createGroup(String g_timestamp, String groupTitle, String groupDescription, String groupIcon) {
+        //setup info of group
+        HashMap<String, String> hashMap = new HashMap<>();
+        hashMap.put("groupId", "" + g_timestamp);
+        hashMap.put("groupTitle", "" + groupTitle);
+        hashMap.put("groupDescription", "" + groupDescription);
+        hashMap.put("groupIcon", "" + groupIcon);
+        hashMap.put("timestamp", "" + g_timestamp);
+        hashMap.put("createdBy", "" + firebaseAuth.getUid());
+
+        //create group
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Groups");
+        ref.child(g_timestamp).setValue(hashMap).addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void unused) {
+                //setup member inf(add current user in group's participant list
+                HashMap<String, String> hashMap1 = new HashMap<>();
+                hashMap1.put("uid", firebaseAuth.getUid());
+                hashMap1.put("role", "creator");
+                hashMap1.put("timestamp", g_timestamp);
+
+                DatabaseReference ref1 = FirebaseDatabase.getInstance().getReference("Groups");
+                ref1.child(g_timestamp).child("Participants").child(firebaseAuth.getUid())
+                        .setValue(hashMap1)
+                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                            @Override
+                            public void onSuccess(Void aVoid) {
+                                //participant added
+                                progressDialog.dismiss();
+                                Toast.makeText(AddGroupActivity.this, "Group created", Toast.LENGTH_SHORT).show();
+                            }
+                        })
+                        .addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                //failed to add participant
+                                progressDialog.dismiss();
+                                Toast.makeText(AddGroupActivity.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
+                            }
+                        });
+            }
+        })
+        .addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                progressDialog.dismiss();
+                Toast.makeText(AddGroupActivity.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void showImagePickDialog() {
