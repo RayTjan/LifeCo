@@ -33,57 +33,59 @@ public class SplashScreenNew extends AppCompatActivity {
             public void run() {
                 Log.d("langsungaaaaa", "wth");
                 Log.d("otw login", "aaaa");
-                if (fAuth.getCurrentUser() != null) {
-                    userId = fAuth.getCurrentUser().getUid();
-                    targetRef = FirebaseDatabase.getInstance().getReference().child("Users").child(userId);
-                    Log.d("Logged in Id:", userId);
-                    targetRef.addValueEventListener(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                            Log.d("checking 1", "hi");
-                            if (dataSnapshot.exists()) {
-                                Log.d("checking 2", "hi " + dataSnapshot.child("account").getValue());
-//                                if((dataSnapshot.child("account").getValue()).equals("patient")){
-//                                    Intent intent = new Intent(SplashScreenNew.this, MainActivity.class);
-//                                    String account = "pasien";
-//                                    intent.putExtra("account",account);
-//                                    startActivity(intent);
-//                                    finish();
-//                                } else if((dataSnapshot.child("account").getValue()).equals("ambulance")){
-//                                    Log.d("checking account", "hi");
-//                                    Intent intent = new Intent(SplashScreenNew.this, MainActivity.class);
-//                                    String account = "ambulans";
-//                                    intent.putExtra("account",account);
-//                                    startActivity(intent);
-//                                    finish();
-//                                } else if ((dataSnapshot.child("account").getValue()).equals("SOCS")) {
-//                                    Log.d("checking account", "hi");
-//                                    Intent intent = new Intent(SplashScreenNew.this, SOCSMainActivity.class);
-//                                    String account = "socs";
-//                                    intent.putExtra("account", account);
-//                                    startActivity(intent);
-//                                    finish();
-//                                }
-                                //posisi udah login
-                                Intent intent = new Intent(SplashScreenNew.this, welcome.class);
-                                startActivity(intent);
-                                finish();
-                            } else {
-                                Log.d("ERROR", "Empty snapshot");
-                            }
-                        }
-
-                        @Override
-                        public void onCancelled(@NonNull DatabaseError databaseError) {
-                            Log.d("ERROR", databaseError.toString());
-                        }
-                    });
-
-                } else {
-                    Intent intent = new Intent(SplashScreenNew.this, LoginActivity.class);
-                    startActivity(intent);
-                    finish();
-                }
+//                if (fAuth.getCurrentUser() != null) {
+//                    userId = fAuth.getCurrentUser().getUid();
+//                    targetRef = FirebaseDatabase.getInstance().getReference().child("Users").child(userId);
+//                    Log.d("Logged in Id:", userId);
+//                    targetRef.addValueEventListener(new ValueEventListener() {
+//                        @Override
+//                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                            Log.d("checking 1", "hi");
+//                            if (dataSnapshot.exists()) {
+//                                Log.d("checking 2", "hi " + dataSnapshot.child("account").getValue());
+////                                if((dataSnapshot.child("account").getValue()).equals("patient")){
+////                                    Intent intent = new Intent(SplashScreenNew.this, MainActivity.class);
+////                                    String account = "pasien";
+////                                    intent.putExtra("account",account);
+////                                    startActivity(intent);
+////                                    finish();
+////                                } else if((dataSnapshot.child("account").getValue()).equals("ambulance")){
+////                                    Log.d("checking account", "hi");
+////                                    Intent intent = new Intent(SplashScreenNew.this, MainActivity.class);
+////                                    String account = "ambulans";
+////                                    intent.putExtra("account",account);
+////                                    startActivity(intent);
+////                                    finish();
+////                                } else if ((dataSnapshot.child("account").getValue()).equals("SOCS")) {
+////                                    Log.d("checking account", "hi");
+////                                    Intent intent = new Intent(SplashScreenNew.this, SOCSMainActivity.class);
+////                                    String account = "socs";
+////                                    intent.putExtra("account", account);
+////                                    startActivity(intent);
+////                                    finish();
+////                                }
+//                                //posisi udah login
+//                                Intent intent = new Intent(SplashScreenNew.this, welcome.class);
+//                                startActivity(intent);
+//                                finish();
+//                            } else {
+//                                Log.d("ERROR", "Empty snapshot");
+//                            }
+//                        }
+//
+//                        @Override
+//                        public void onCancelled(@NonNull DatabaseError databaseError) {
+//                            Log.d("ERROR", databaseError.toString());
+//                        }
+//                    });
+//
+//                } else {
+//                    Intent intent = new Intent(SplashScreenNew.this, LoginActivity.class);
+//                    startActivity(intent);
+//                    finish();
+//                }
+                Intent intent = new Intent(SplashScreenNew.this, welcome.class);
+                startActivity(intent);
             }
         }, SPLASH_DISPLAY_LENGTH);
 
