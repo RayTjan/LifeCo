@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a71671-2881-47d5-99e9-657ca0b28284" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CallingWithButton/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CallingWithButton/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selfie/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selfie/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatapp/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LifeCo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LifeCo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAB/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAB/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAB/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CallingWithButton/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CallingWithButton/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CallingWithButton/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CallingWithButton/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CallingWithButton/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CallingWithButton/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selfie/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Selfie/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selfie/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Selfie/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selfie/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Selfie/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeco/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeco/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeco/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeco/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeco/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeco/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

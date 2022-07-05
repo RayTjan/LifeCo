@@ -1,12 +1,12 @@
 package com.dokterkit.LifeCo.activities;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.dokterkit.lifeco.R;
 import com.google.firebase.auth.FirebaseAuth;

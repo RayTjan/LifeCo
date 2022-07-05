@@ -1,0 +1,1562 @@
+Index: ../.idea/runConfigurations.xml
+===================================================================
+diff --git a/../.idea/runConfigurations.xml b/../.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/../.idea/runConfigurations.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ /dev/null	(revision e41ab3a02177226599c419ffadf3defd98c66717)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/runConfigurations.xml
+===================================================================
+diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/.idea/runConfigurations.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ /dev/null	(revision e41ab3a02177226599c419ffadf3defd98c66717)
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../lifeco/.idea/runConfigurations.xml
+===================================================================
+diff --git a/../lifeco/.idea/runConfigurations.xml b/../lifeco/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/../lifeco/.idea/runConfigurations.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ /dev/null	(revision e41ab3a02177226599c419ffadf3defd98c66717)
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35__Default_Changelist_.xml
+===================================================================
+diff --git a/../lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35__Default_Changelist_.xml b/../lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35__Default_Changelist_.xml
+deleted file mode 100644
+--- a/../lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35__Default_Changelist_.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ /dev/null	(revision e41ab3a02177226599c419ffadf3defd98c66717)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_19_06_2021_16_35_[Default_Changelist]" date="1624095314601" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 19/06/2021 16:35 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: ../Selfie/.idea/runConfigurations.xml
+===================================================================
+diff --git a/../Selfie/.idea/runConfigurations.xml b/../Selfie/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/../Selfie/.idea/runConfigurations.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ /dev/null	(revision e41ab3a02177226599c419ffadf3defd98c66717)
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../chatapp/.idea/runConfigurations.xml
+===================================================================
+diff --git a/../chatapp/.idea/runConfigurations.xml b/../chatapp/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/../chatapp/.idea/runConfigurations.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ /dev/null	(revision e41ab3a02177226599c419ffadf3defd98c66717)
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../CallingWithButton/.idea/runConfigurations.xml
+===================================================================
+diff --git a/../CallingWithButton/.idea/runConfigurations.xml b/../CallingWithButton/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/../CallingWithButton/.idea/runConfigurations.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ /dev/null	(revision e41ab3a02177226599c419ffadf3defd98c66717)
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35_[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/../lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35_[Default_Changelist]/shelved.patch b/../lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35_[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/../lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35_[Default_Changelist]/shelved.patch	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ /dev/null	(revision e41ab3a02177226599c419ffadf3defd98c66717)
+@@ -1,148 +0,0 @@
+-Index: app/src/main/java/com/example/LifeCo/activities/MainActivity.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.example.LifeCo.activities;\r\n\r\n        import androidx.annotation.NonNull;\r\n        import androidx.appcompat.app.AppCompatActivity;\r\n        import androidx.appcompat.widget.Toolbar;\r\n        import androidx.fragment.app.Fragment;\r\n        import androidx.fragment.app.FragmentTransaction;\r\n\r\n        import android.content.Intent;\r\n        import android.os.Bundle;\r\n        import android.util.Log;\r\n        import android.view.MenuItem;\r\n        import android.view.View;\r\n\r\n        import com.example.LifeCo.fragments.AccountDriverFragment;\r\n        import com.example.LifeCo.fragments.AccountFragment;\r\n        import com.example.LifeCo.fragments.HistoryFragment;\r\n        import com.example.LifeCo.fragments.HomeFragment;\r\n        import com.example.lifeco.R;\r\n        import com.google.android.material.bottomnavigation.BottomNavigationView;\r\n        import com.google.firebase.auth.FirebaseAuth;\r\n\r\npublic class MainActivity extends AppCompatActivity {\r\n\r\n    Toolbar toolbar;\r\n    BottomNavigationView bottomNavigationView;\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_main);\r\n\r\n        toolbar = findViewById(R.id.toolbar_main);\r\n\r\n\r\n        bottomNavigationView = findViewById(R.id.bottom_nav_main);\r\n\r\n        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {\r\n            @Override\r\n            public boolean onNavigationItemSelected(@NonNull MenuItem item) {\r\n                Fragment fragment;\r\n                switch (item.getItemId()){\r\n\r\n\r\n                    case R.id.menu_history:\r\n                        toolbar.setTitle(R.string.menu_history);\r\n                        setSupportActionBar(toolbar);\r\n                        fragment = new HistoryFragment();\r\n                        loadFragment(fragment);\r\n                        return true;\r\n\r\n                    case R.id.menu_home:\r\n                        toolbar.setTitle(R.string.menu_home);\r\n                        setSupportActionBar(toolbar);\r\n                        fragment = new HomeFragment();\r\n                        loadFragment(fragment);\r\n                        return true;\r\n\r\n                    case R.id.menu_account:\r\n                        toolbar.setTitle(R.string.menu_account);\r\n                        setSupportActionBar(toolbar);\r\n                        Intent i = getIntent();\r\n                        //what is wrooooong with this oneee\r\n                        if(i.getStringExtra(\"account\").equalsIgnoreCase(\"pasien\")){\r\n                            fragment = new AccountFragment();\r\n                        } else {\r\n                            fragment = new AccountDriverFragment();\r\n                        }\r\n                        loadFragment(fragment);\r\n                        return true;\r\n                }\r\n                return false;\r\n            }\r\n        });\r\n    }\r\n    private void loadFragment(Fragment fragment) {\r\n        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();\r\n        transaction.replace(R.id.frame_main, fragment);\r\n        transaction.commit();\r\n    }\r\n\r\n\r\n    @Override\r\n    protected void onStart() {\r\n        super.onStart();\r\n        toolbar.setTitle(R.string.menu_home);\r\n        setSupportActionBar(toolbar);\r\n        bottomNavigationView.setSelectedItemId(R.id.menu_home); /*mulai dimana saat run aplikasi */\r\n//        Fragment fragment = new HomeFragment();\r\n//        loadFragment(fragment);\r\n    }\r\n\r\n\r\n}\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- app/src/main/java/com/example/LifeCo/activities/MainActivity.java	(revision 8958540b6341780dcb2087771b0c2022ea5082aa)
+-+++ app/src/main/java/com/example/LifeCo/activities/MainActivity.java	(date 1624095288671)
+-@@ -14,6 +14,7 @@
+- 
+-         import com.example.LifeCo.fragments.AccountDriverFragment;
+-         import com.example.LifeCo.fragments.AccountFragment;
+-+        import com.example.LifeCo.fragments.BarcodeFragment;
+-         import com.example.LifeCo.fragments.HistoryFragment;
+-         import com.example.LifeCo.fragments.HomeFragment;
+-         import com.example.lifeco.R;
+-@@ -68,6 +69,13 @@
+-                         }
+-                         loadFragment(fragment);
+-                         return true;
+-+
+-+                    case R.id.menu_barcode:
+-+                        toolbar.setTitle(R.string.menu_barcode);
+-+                        setSupportActionBar(toolbar);
+-+                        fragment = new BarcodeFragment();
+-+                        loadFragment(fragment);
+-+                        return true;
+-                 }
+-                 return false;
+-             }
+-Index: app/src/main/java/com/example/LifeCo/fragments/BarcodeFragment.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- app/src/main/java/com/example/LifeCo/fragments/BarcodeFragment.java	(date 1624095298523)
+-+++ app/src/main/java/com/example/LifeCo/fragments/BarcodeFragment.java	(date 1624095298523)
+-@@ -0,0 +1,24 @@
+-+package com.example.LifeCo.fragments;
+-+
+-+import android.os.Bundle;
+-+
+-+import androidx.fragment.app.Fragment;
+-+
+-+import android.view.LayoutInflater;
+-+import android.view.View;
+-+import android.view.ViewGroup;
+-+
+-+import com.example.lifeco.R;
+-+
+-+public class BarcodeFragment extends Fragment {
+-+
+-+   private View view;
+-+
+-+    @Override
+-+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+-+                             Bundle savedInstanceState) {
+-+
+-+        view = inflater.inflate(R.layout.fragment_barcode, container, false);
+-+        return view;
+-+    }
+-+}
+-\ No newline at end of file
+-Index: app/src/main/res/values/strings.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><resources>\r\n    <string name=\"menu_home\">Home</string>\r\n    <string name=\"menu_history\">History</string>\r\n    <string name=\"menu_account\">Account</string>\r\n\r\n    <!-- TODO: Remove or change this placeholder text -->\r\n    <string name=\"hello_blank_fragment\">Hello blank fragment</string>\r\n    <string name=\"menu_darurat\">Darurat</string>\r\n    <string name=\"menu_sejarah\">Sejarah</string>\r\n    <string name=\"menu_akun\">Akun</string>\r\n    <string name=\"quote\">Kekayaan manusia yang terbesar adalah sehat walafiat</string>\r\n    <string name=\"login_toolbar\">Login</string>\r\n    <string name=\"user_email\">Email</string>\r\n    <string name=\"user_password\">Password</string>\r\n    <string name=\"btnLogin\">Login</string>\r\n    <string name=\"msg_no_akun\">Tidak mempunyai akun?</string>\r\n    <string name=\"daftar_akun\">Daftar Sekarang</string>\r\n    <string name=\"regis_toolbar\">Daftar Akun</string>\r\n    <string name=\"inpNamaRegis\">Nama Lengkap</string>\r\n    <string name=\"inpEmailRegis\">Email</string>\r\n    <string name=\"inpPasswordRegis\">Password</string>\r\n    <string name=\"textGender\">Jenis Kelamin</string>\r\n    <string name=\"textGolDarah\">Golongan Darah</string>\r\n    <string name=\"inpAlamatRegis\">Alamat</string>\r\n    <string name=\"inpNoHPRegis\">No. HP</string>\r\n    <string name=\"textTglLahirRegis\">Tanggal Lahir</string>\r\n    <string name=\"inpNoBPJSRegis\">No. BPJS</string>\r\n    <string name=\"inpNoKTPRegis\">No. KTP</string>\r\n    <string name=\"dftrAkunRegis\">Daftar Akun</string>\r\n    <string name=\"inpPenyakitSendiriRegis\">Riwayat Penyakit Sendiri</string>\r\n    <string name=\"inpPenyakitKeluargaRegis\">Riwayat Penyakit Keluarga</string>\r\n    <string name=\"inpKeluhanUtamaRegis\">Keluhan Utama</string>\r\n    <string name=\"inpObatRegis\">Obat-obatan yang telah dikonsumsi</string>\r\n    <string name=\"inpAlergiObatRegis\">Alergi obat-obatan</string>\r\n    <string name=\"inpAlergiMakananRegis\">Alergi Makanan</string>\r\n    <string name=\"inpTekananDarahRegis\">Tekanan Darah</string>\r\n    <string name=\"inpGulaDarahRegis\">Gula Darah</string>\r\n    <string name=\"inpNoAsuransiRegis\">No. Asuransi</string>\r\n    <string name=\"inpTanggalFormatRegis\">yyyy/mm/dd</string>\r\n    <string name=\"btnLogOut\">Log Out</string>\r\n    <string name=\"txtInformasiPersonal\">Informasi Personal</string>\r\n    <string name=\"toolbarProfilAkun\">Profil Akun</string>\r\n    <string name=\"btnUpdateAkun\">Update Akun</string>\r\n    <string name=\"btnChat\">Chat</string>\r\n    <string name=\"inpUsernameRegis\">Username</string>\r\n    <string name=\"actPanggil\">Melakukan pemanggilan darurat</string>\r\n\r\n\r\n    <string-array name=\"inpJenisKelaminGroup\">\r\n        <item>Perempuan</item>\r\n        <item>Laki-laki</item>\r\n    </string-array>\r\n\r\n    <string-array name=\"inpGolDarahGroup\">\r\n        <item>A</item>\r\n        <item>B</item>\r\n        <item>AB</item>\r\n        <item>O</item>\r\n    </string-array>\r\n    <string name=\"title_activity_passenger_maps\">Map</string>\r\n    <string name=\"title_activity_driver_maps\">Map</string>\r\n    <string name=\"txtKesehatanPribadi\">Kesehatan Pribadi</string>\r\n    <string name=\"txtTekananDarah\">Tekanan Darah</string>\r\n    <string name=\"mmhg\">mmHg</string>\r\n    <string name=\"CallBtn\">Call</string>\r\n    <string name=\"ChatNowBtn\">Chat Now</string>\r\n    <string name=\"ambulansButton\">Ambulans</string>\r\n    <string name=\"pasienButton\">Pasien</string>\r\n    <string name=\"chooseText\">Pilih Tipe Akun</string>\r\n    <string name=\"txtRiwayatKesehatan\" />\r\n    <string name=\"textRiwayatKesehatan\">Riwayat Kesehatan</string>\r\n    <string name=\"txtKeluhan\">Keluhan</string>\r\n    <string name=\"hintRumahSakit\">Nama Rumah Sakit</string>\r\n    <string name=\"inpNamaDriverRegis\">Nama Lengkap</string>\r\n    <string name=\"inpEmailDriverRegis\">Email</string>\r\n    <string name=\"inpPasswordDriverRegis\">Password</string>\r\n    <string name=\"inpNoTelpDriverRegis\">No. Telepon</string>\r\n    <string name=\"inpRumahSakitDriverRegis\">Nama Rumah Sakit</string>\r\n    <string name=\"btnDaftarAkunText\">Daftar Akun</string>\r\n    <string name=\"title_activity_splash_screen_new\">SplashScreenNew</string>\r\n    <!--\r\n    This string is used for square devices and overridden by hello_world in\r\n    values-round/strings.xml for round devices.\r\n    -->\r\n    <string name=\"hello_world\">Hello Square World!</string>\r\n\r\n</resources>\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- app/src/main/res/values/strings.xml	(revision 8958540b6341780dcb2087771b0c2022ea5082aa)
+-+++ app/src/main/res/values/strings.xml	(date 1624095288679)
+-@@ -83,5 +83,6 @@
+-     values-round/strings.xml for round devices.
+-     -->
+-     <string name="hello_world">Hello Square World!</string>
+-+    <string name="menu_barcode">Barcode</string>
+- 
+- </resources>
+-Index: app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml	(date 1624095018498)
+-+++ app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml	(date 1624095018498)
+-@@ -0,0 +1,10 @@
+-+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-+    android:width="24dp"
+-+    android:height="24dp"
+-+    android:viewportWidth="24"
+-+    android:viewportHeight="24"
+-+    android:tint="?attr/colorControlNormal">
+-+  <path
+-+      android:fillColor="@android:color/white"
+-+      android:pathData="M9.5,6.5v3h-3v-3H9.5M11,5H5v6h6V5L11,5zM9.5,14.5v3h-3v-3H9.5M11,13H5v6h6V13L11,13zM17.5,6.5v3h-3v-3H17.5M19,5h-6v6h6V5L19,5zM13,13h1.5v1.5H13V13zM14.5,14.5H16V16h-1.5V14.5zM16,13h1.5v1.5H16V13zM13,16h1.5v1.5H13V16zM14.5,17.5H16V19h-1.5V17.5zM16,16h1.5v1.5H16V16zM17.5,14.5H19V16h-1.5V14.5zM17.5,17.5H19V19h-1.5V17.5zM22,7h-2V4h-3V2h5V7zM22,22v-5h-2v3h-3v2H22zM2,22h5v-2H4v-3H2V22zM2,2v5h2V4h3V2H2z"/>
+-+</vector>
+-Index: app/src/main/res/layout/fragment_barcode.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- app/src/main/res/layout/fragment_barcode.xml	(date 1624094734049)
+-+++ app/src/main/res/layout/fragment_barcode.xml	(date 1624094734049)
+-@@ -0,0 +1,13 @@
+-+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-+    xmlns:tools="http://schemas.android.com/tools"
+-+    android:layout_width="match_parent"
+-+    android:layout_height="match_parent"
+-+    tools:context="com.example.LifeCo.fragments.BarcodeFragment">
+-+
+-+    <!-- TODO: Update blank fragment layout -->
+-+    <TextView
+-+        android:layout_width="match_parent"
+-+        android:layout_height="match_parent"
+-+        android:text="@string/hello_blank_fragment" />
+-+
+-+</FrameLayout>
+-\ No newline at end of file
+-Index: app/src/main/res/menu/bottom_nav_menu.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<menu xmlns:android=\"http://schemas.android.com/apk/res/android\">\r\n\r\n    <item\r\n        android:id=\"@+id/menu_history\"\r\n        android:icon=\"@drawable/ic_history_black_24dp\"\r\n        android:title=\"@string/menu_sejarah\" />\r\n\r\n    <item\r\n        android:id=\"@+id/menu_home\"\r\n        android:icon=\"@drawable/ic_priority_high_black_24dp\"\r\n        android:title=\"@string/menu_darurat\" />\r\n\r\n    <item\r\n        android:id=\"@+id/menu_account\"\r\n        android:icon=\"@drawable/ic_account_circle_black_24dp\"\r\n        android:title=\"@string/menu_akun\" />\r\n</menu>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- app/src/main/res/menu/bottom_nav_menu.xml	(revision 8958540b6341780dcb2087771b0c2022ea5082aa)
+-+++ app/src/main/res/menu/bottom_nav_menu.xml	(date 1624095029970)
+-@@ -1,5 +1,6 @@
+- <?xml version="1.0" encoding="utf-8"?>
+--<menu xmlns:android="http://schemas.android.com/apk/res/android">
+-+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+-+    xmlns:android="http://schemas.android.com/apk/res/android">
+- 
+-     <item
+-         android:id="@+id/menu_history"
+-@@ -11,6 +12,10 @@
+-         android:icon="@drawable/ic_priority_high_black_24dp"
+-         android:title="@string/menu_darurat" />
+- 
+-+    <item
+-+        android:id="@+id/menu_barcode"
+-+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+-+        android:title="Barcode" />
+-     <item
+-         android:id="@+id/menu_account"
+-         android:icon="@drawable/ic_account_circle_black_24dp"
+Index: ../.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"NONE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"92a71671-2881-47d5-99e9-657ca0b28284\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/CallingWithButton/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/CallingWithButton/.idea/jarRepositories.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Selfie/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Selfie/.idea/jarRepositories.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatapp/.idea/jarRepositories.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/LifeCo.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/LifeCo.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CAB/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CAB/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CAB/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CAB/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CAB/.idea/runConfigurations.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CAB/.idea/runConfigurations.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CallingWithButton/.idea/gradle.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CallingWithButton/.idea/gradle.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CallingWithButton/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CallingWithButton/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/CallingWithButton/.idea/runConfigurations.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CallingWithButton/.idea/runConfigurations.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Selfie/.idea/gradle.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Selfie/.idea/gradle.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Selfie/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Selfie/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Selfie/.idea/runConfigurations.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Selfie/.idea/runConfigurations.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/chatapp/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/chatapp/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/chatapp/.idea/gradle.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/chatapp/.idea/gradle.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/chatapp/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/chatapp/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/chatapp/.idea/runConfigurations.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/chatapp/.idea/runConfigurations.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lifeco/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lifeco/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lifeco/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lifeco/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lifeco/.idea/runConfigurations.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lifeco/.idea/runConfigurations.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lifeco/app/build.gradle\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lifeco/app/build.gradle\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lifeco/build.gradle\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lifeco/build.gradle\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lifeco/gradle/wrapper/gradle-wrapper.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lifeco/gradle/wrapper/gradle-wrapper.properties\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectConfigurationFiles\">\r\n    <option name=\"files\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/.idea/LifeCo.iml\" />\r\n        <option value=\"$PROJECT_DIR$/.idea/vcs.xml\" />\r\n        <option value=\"$PROJECT_DIR$/.idea/modules.xml\" />\r\n        <option value=\"$PROJECT_DIR$/.idea/codeStyles/Project.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1hTkwL0fDquglNub1zaLYJ56HfI\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"android.sdk.path\" value=\"$USER_HOME$/AppData/Local/Android/Sdk\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"AndroidSdkUpdater\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"92a71671-2881-47d5-99e9-657ca0b28284\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1590407272606</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1590407272606</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"121\" y=\"0\" key=\"#Project_Structure\" timestamp=\"1623745085339\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"688\" />\r\n    </state>\r\n    <state x=\"121\" y=\"0\" key=\"#Project_Structure/0.0.1280.688@0.0.1280.688\" timestamp=\"1623745085339\" />\r\n    <state x=\"96\" y=\"0\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1623745172776\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"688\" />\r\n    </state>\r\n    <state x=\"96\" y=\"0\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.688@0.0.1280.688\" timestamp=\"1623745172776\" />\r\n    <state x=\"421\" y=\"99\" key=\"FileChooserDialogImpl\" timestamp=\"1623745226962\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"688\" />\r\n    </state>\r\n    <state x=\"421\" y=\"99\" key=\"FileChooserDialogImpl/0.0.1280.688@0.0.1280.688\" timestamp=\"1623745226962\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../.idea/workspace.xml b/../.idea/workspace.xml
+--- a/../.idea/workspace.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../.idea/workspace.xml	(date 1657004618154)
+@@ -1,34 +1,56 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AndroidLayouts">
++    <shared>
++      <config />
++    </shared>
++  </component>
+   <component name="AutoImportSettings">
+     <option name="autoReloadType" value="NONE" />
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="92a71671-2881-47d5-99e9-657ca0b28284" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/CallingWithButton/.idea/compiler.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/CallingWithButton/.idea/jarRepositories.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Selfie/.idea/compiler.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Selfie/.idea/jarRepositories.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatapp/.idea/jarRepositories.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/LifeCo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LifeCo.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lifeco/app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lifeco/app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lifeco/app/gradlew" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lifeco/app/gradlew.bat" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lifeco/app/src/main/res/drawable/bg1.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lifeco/app/src/main/res/drawable/bg2.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/lifeco/app/src/main/res/drawable/lifeco.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/CAB/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CAB/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/.idea/gradle.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/CAB/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CAB/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/.idea/runConfigurations.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CAB/.idea/runConfigurations.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/CAB/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/app/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CAB/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CAB/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CAB/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CallingWithButton/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CallingWithButton/.idea/compiler.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/CallingWithButton/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CallingWithButton/.idea/gradle.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/CallingWithButton/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CallingWithButton/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CallingWithButton/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CallingWithButton/.idea/runConfigurations.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CallingWithButton/.idea/runConfigurations.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Selfie/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Selfie/.idea/compiler.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Selfie/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Selfie/.idea/gradle.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Selfie/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Selfie/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Selfie/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Selfie/.idea/runConfigurations.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Selfie/.idea/runConfigurations.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/chatapp/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/.idea/compiler.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/chatapp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/.idea/gradle.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/chatapp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/chatapp/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatapp/.idea/runConfigurations.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lifeco/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/chatapp/.idea/runConfigurations.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/.idea/gradle.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/lifeco/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lifeco/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/.idea/runConfigurations.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/.idea/runConfigurations.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35_[Default_Changelist]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/.idea/shelf/Uncommitted_changes_before_Update_at_19_06_2021_16_35__Default_Changelist_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/lifeco/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/app/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/app/src/main/res/drawable-hdpi/lifeco.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/app/src/main/res/layout/activity_chat_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/app/src/main/res/layout/activity_chat_main.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/app/src/main/res/layout/activity_login.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/app/src/main/res/layout/activity_splash_screen_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/app/src/main/res/layout/activity_splash_screen_new.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/app/src/main/res/layout/activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/app/src/main/res/layout/activity_welcome.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/app/src/main/res/values/colors.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lifeco/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/app/src/main/res/values/strings.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/lifeco/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/build.gradle" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/lifeco/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lifeco/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+     </list>
+@@ -58,7 +80,9 @@
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
++    <property name="cidr.known.project.marker" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="project.structure.last.edited" value="Modules" />
+     <property name="project.structure.proportion" value="0.0" />
+@@ -78,6 +102,17 @@
+       <updated>1590407272606</updated>
+     </task>
+     <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="121" y="0" key="#Project_Structure" timestamp="1623745085339">
+Index: ../lifeco/app/gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/../lifeco/app/gradle/wrapper/gradle-wrapper.properties b/../lifeco/app/gradle/wrapper/gradle-wrapper.properties
+new file mode 100644
+--- /dev/null	(date 1656704957430)
++++ b/../lifeco/app/gradle/wrapper/gradle-wrapper.properties	(date 1656704957430)
+@@ -0,0 +1,5 @@
++distributionBase=GRADLE_USER_HOME
++distributionPath=wrapper/dists
++distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-bin.zip
++zipStoreBase=GRADLE_USER_HOME
++zipStorePath=wrapper/dists
+Index: ../lifeco/app/gradlew.bat
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/app/gradlew.bat b/../lifeco/app/gradlew.bat
+new file mode 100644
+--- /dev/null	(date 1656704957508)
++++ b/../lifeco/app/gradlew.bat	(date 1656704957508)
+@@ -0,0 +1,89 @@
++@rem
++@rem Copyright 2015 the original author or authors.
++@rem
++@rem Licensed under the Apache License, Version 2.0 (the "License");
++@rem you may not use this file except in compliance with the License.
++@rem You may obtain a copy of the License at
++@rem
++@rem      https://www.apache.org/licenses/LICENSE-2.0
++@rem
++@rem Unless required by applicable law or agreed to in writing, software
++@rem distributed under the License is distributed on an "AS IS" BASIS,
++@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++@rem See the License for the specific language governing permissions and
++@rem limitations under the License.
++@rem
++
++@if "%DEBUG%" == "" @echo off
++@rem ##########################################################################
++@rem
++@rem  Gradle startup script for Windows
++@rem
++@rem ##########################################################################
++
++@rem Set local scope for the variables with windows NT shell
++if "%OS%"=="Windows_NT" setlocal
++
++set DIRNAME=%~dp0
++if "%DIRNAME%" == "" set DIRNAME=.
++set APP_BASE_NAME=%~n0
++set APP_HOME=%DIRNAME%
++
++@rem Resolve any "." and ".." in APP_HOME to make it shorter.
++for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
++
++@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
++
++@rem Find java.exe
++if defined JAVA_HOME goto findJavaFromJavaHome
++
++set JAVA_EXE=java.exe
++%JAVA_EXE% -version >NUL 2>&1
++if "%ERRORLEVEL%" == "0" goto execute
++
++echo.
++echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:findJavaFromJavaHome
++set JAVA_HOME=%JAVA_HOME:"=%
++set JAVA_EXE=%JAVA_HOME%/bin/java.exe
++
++if exist "%JAVA_EXE%" goto execute
++
++echo.
++echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:execute
++@rem Setup the command line
++
++set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
++
++
++@rem Execute Gradle
++"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %*
++
++:end
++@rem End local scope for the variables with windows NT shell
++if "%ERRORLEVEL%"=="0" goto mainEnd
++
++:fail
++rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
++rem the _cmd.exe /c_ return code!
++if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
++exit /b 1
++
++:mainEnd
++if "%OS%"=="Windows_NT" endlocal
++
++:omega
+Index: ../lifeco/app/gradlew
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/app/gradlew b/../lifeco/app/gradlew
+new file mode 100644
+--- /dev/null	(date 1656704957464)
++++ b/../lifeco/app/gradlew	(date 1656704957464)
+@@ -0,0 +1,185 @@
++#!/usr/bin/env sh
++
++#
++# Copyright 2015 the original author or authors.
++#
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#      https://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++#
++
++##############################################################################
++##
++##  Gradle start up script for UN*X
++##
++##############################################################################
++
++# Attempt to set APP_HOME
++# Resolve links: $0 may be a link
++PRG="$0"
++# Need this for relative symlinks.
++while [ -h "$PRG" ] ; do
++    ls=`ls -ld "$PRG"`
++    link=`expr "$ls" : '.*-> \(.*\)$'`
++    if expr "$link" : '/.*' > /dev/null; then
++        PRG="$link"
++    else
++        PRG=`dirname "$PRG"`"/$link"
++    fi
++done
++SAVED="`pwd`"
++cd "`dirname \"$PRG\"`/" >/dev/null
++APP_HOME="`pwd -P`"
++cd "$SAVED" >/dev/null
++
++APP_NAME="Gradle"
++APP_BASE_NAME=`basename "$0"`
++
++# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
++
++# Use the maximum available, or set MAX_FD != -1 to use that value.
++MAX_FD="maximum"
++
++warn () {
++    echo "$*"
++}
++
++die () {
++    echo
++    echo "$*"
++    echo
++    exit 1
++}
++
++# OS specific support (must be 'true' or 'false').
++cygwin=false
++msys=false
++darwin=false
++nonstop=false
++case "`uname`" in
++  CYGWIN* )
++    cygwin=true
++    ;;
++  Darwin* )
++    darwin=true
++    ;;
++  MINGW* )
++    msys=true
++    ;;
++  NONSTOP* )
++    nonstop=true
++    ;;
++esac
++
++CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
++
++
++# Determine the Java command to use to start the JVM.
++if [ -n "$JAVA_HOME" ] ; then
++    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
++        # IBM's JDK on AIX uses strange locations for the executables
++        JAVACMD="$JAVA_HOME/jre/sh/java"
++    else
++        JAVACMD="$JAVA_HOME/bin/java"
++    fi
++    if [ ! -x "$JAVACMD" ] ; then
++        die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++    fi
++else
++    JAVACMD="java"
++    which java >/dev/null 2>&1 || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++fi
++
++# Increase the maximum file descriptors if we can.
++if [ "$cygwin" = "false" -a "$darwin" = "false" -a "$nonstop" = "false" ] ; then
++    MAX_FD_LIMIT=`ulimit -H -n`
++    if [ $? -eq 0 ] ; then
++        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
++            MAX_FD="$MAX_FD_LIMIT"
++        fi
++        ulimit -n $MAX_FD
++        if [ $? -ne 0 ] ; then
++            warn "Could not set maximum file descriptor limit: $MAX_FD"
++        fi
++    else
++        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
++    fi
++fi
++
++# For Darwin, add options to specify how the application appears in the dock
++if $darwin; then
++    GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""
++fi
++
++# For Cygwin or MSYS, switch paths to Windows format before running java
++if [ "$cygwin" = "true" -o "$msys" = "true" ] ; then
++    APP_HOME=`cygpath --path --mixed "$APP_HOME"`
++    CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
++
++    JAVACMD=`cygpath --unix "$JAVACMD"`
++
++    # We build the pattern for arguments to be converted via cygpath
++    ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
++    SEP=""
++    for dir in $ROOTDIRSRAW ; do
++        ROOTDIRS="$ROOTDIRS$SEP$dir"
++        SEP="|"
++    done
++    OURCYGPATTERN="(^($ROOTDIRS))"
++    # Add a user-defined pattern to the cygpath arguments
++    if [ "$GRADLE_CYGPATTERN" != "" ] ; then
++        OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"
++    fi
++    # Now convert the arguments - kludge to limit ourselves to /bin/sh
++    i=0
++    for arg in "$@" ; do
++        CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`
++        CHECK2=`echo "$arg"|egrep -c "^-"`                                 ### Determine if an option
++
++        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then                    ### Added a condition
++            eval `echo args$i`=`cygpath --path --ignore --mixed "$arg"`
++        else
++            eval `echo args$i`="\"$arg\""
++        fi
++        i=`expr $i + 1`
++    done
++    case $i in
++        0) set -- ;;
++        1) set -- "$args0" ;;
++        2) set -- "$args0" "$args1" ;;
++        3) set -- "$args0" "$args1" "$args2" ;;
++        4) set -- "$args0" "$args1" "$args2" "$args3" ;;
++        5) set -- "$args0" "$args1" "$args2" "$args3" "$args4" ;;
++        6) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" ;;
++        7) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" ;;
++        8) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" ;;
++        9) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" "$args8" ;;
++    esac
++fi
++
++# Escape application args
++save () {
++    for i do printf %s\\n "$i" | sed "s/'/'\\\\''/g;1s/^/'/;\$s/\$/' \\\\/" ; done
++    echo " "
++}
++APP_ARGS=`save "$@"`
++
++# Collect all arguments for the java command, following the shell quoting and substitution rules
++eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
++
++exec "$JAVACMD" "$@"
+Index: ../Selfie/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Selfie/.idea/misc.xml b/../Selfie/.idea/misc.xml
+--- a/../Selfie/.idea/misc.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../Selfie/.idea/misc.xml	(date 1656961078630)
+@@ -1,6 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Android_Studio/DocterKit/Selfie/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
++      </map>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Top-level build file where you can add configuration options common to all sub-projects/modules.\r\n\r\nbuildscript {\r\n    repositories {\r\n        google()\r\n        jcenter()\r\n        \r\n    }\r\n    dependencies {\r\n        classpath 'com.android.tools.build:gradle:4.0.0'\r\n        classpath 'com.google.gms:google-services:4.3.3'\r\n\r\n        // NOTE: Do not place your application dependencies here; they belong\r\n        // in the individual module build.gradle files\r\n    }\r\n}\r\n\r\nallprojects {\r\n    repositories {\r\n        google()\r\n        jcenter()\r\n        mavenCentral()\r\n    }\r\n}\r\n\r\ntask clean(type: Delete) {\r\n    delete rootProject.buildDir\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/build.gradle b/build.gradle
+--- a/build.gradle	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/build.gradle	(date 1657004239970)
+@@ -7,8 +7,8 @@
+         
+     }
+     dependencies {
+-        classpath 'com.android.tools.build:gradle:4.0.0'
+-        classpath 'com.google.gms:google-services:4.3.3'
++        classpath 'com.android.tools.build:gradle:7.2.1'
++        classpath 'com.google.gms:google-services:4.3.10'
+ 
+         // NOTE: Do not place your application dependencies here; they belong
+         // in the individual module build.gradle files
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <bytecodeTargetLevel target=\"11\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/.idea/compiler.xml	(date 1657003525283)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="11" />
++    <bytecodeTargetLevel target="1.8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../Selfie/.idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <bytecodeTargetLevel target=\"11\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Selfie/.idea/compiler.xml b/../Selfie/.idea/compiler.xml
+--- a/../Selfie/.idea/compiler.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../Selfie/.idea/compiler.xml	(date 1656961031003)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="11" />
++    <bytecodeTargetLevel target="1.8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../chatapp/.idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../chatapp/.idea/gradle.xml b/../chatapp/.idea/gradle.xml
+--- a/../chatapp/.idea/gradle.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../chatapp/.idea/gradle.xml	(date 1656960153000)
+@@ -4,7 +4,7 @@
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+-        <option name="testRunner" value="PLATFORM" />
++        <option name="testRunner" value="GRADLE" />
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+         <option name="modules">
+@@ -13,7 +13,6 @@
+             <option value="$PROJECT_DIR$/app" />
+           </set>
+         </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+       </GradleProjectSettings>
+     </option>
+   </component>
+Index: ../lifeco/gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Sun Sep 13 11:23:13 ICT 2020\r\ndistributionBase=GRADLE_USER_HOME\r\ndistributionPath=wrapper/dists\r\nzipStoreBase=GRADLE_USER_HOME\r\nzipStorePath=wrapper/dists\r\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-6.7.1-all.zip\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/../lifeco/gradle/wrapper/gradle-wrapper.properties b/../lifeco/gradle/wrapper/gradle-wrapper.properties
+--- a/../lifeco/gradle/wrapper/gradle-wrapper.properties	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/gradle/wrapper/gradle-wrapper.properties	(date 1656705742543)
+@@ -3,4 +3,4 @@
+ distributionPath=wrapper/dists
+ zipStoreBase=GRADLE_USER_HOME
+ zipStorePath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-6.7.1-all.zip
++distributionUrl=https\://services.gradle.org/distributions/gradle-7.3.3-all.zip
+Index: ../Selfie/.idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Selfie/.idea/gradle.xml b/../Selfie/.idea/gradle.xml
+--- a/../Selfie/.idea/gradle.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../Selfie/.idea/gradle.xml	(date 1656961096846)
+@@ -4,16 +4,16 @@
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+-        <option name="testRunner" value="PLATFORM" />
++        <option name="testRunner" value="GRADLE" />
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="gradleJvm" value="11" />
+         <option name="modules">
+           <set>
+             <option value="$PROJECT_DIR$" />
+             <option value="$PROJECT_DIR$/app" />
+           </set>
+         </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+       </GradleProjectSettings>
+     </option>
+   </component>
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>apply plugin: 'com.android.application'\r\napply plugin: 'com.google.gms.google-services'\r\n\r\nandroid {\r\n    compileSdkVersion 28\r\n    buildToolsVersion \"29.0.3\"\r\n    defaultConfig {\r\n        applicationId \"com.uc.cab\"\r\n        minSdkVersion 23\r\n        targetSdkVersion 28\r\n        versionCode 1\r\n        versionName \"1.0\"\r\n        testInstrumentationRunner \"androidx.test.runner.AndroidJUnitRunner\"\r\n    }\r\n    buildTypes {\r\n        release {\r\n            minifyEnabled false\r\n            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'\r\n        }\r\n    }\r\n}\r\n\r\ndependencies {\r\n    implementation fileTree(dir: 'libs', include: ['*.jar'])\r\n    implementation 'androidx.appcompat:appcompat:1.1.0'\r\n    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'\r\n    implementation 'com.google.firebase:firebase-auth:16.0.5'\r\n    implementation 'com.google.firebase:firebase-database:16.0.4'\r\n    implementation 'com.google.android.gms:play-services-maps:16.1.0'\r\n    implementation 'com.google.android.gms:play-services-location:16.0.0'\r\n    testImplementation 'junit:junit:4.12'\r\n    androidTestImplementation 'androidx.test.ext:junit:1.1.1'\r\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'\r\n    implementation 'com.google.android.material:material:1.1.0'\r\n    implementation 'com.firebase:geofire-java:3.0.0'\r\n    implementation 'com.github.jd-alexander:library:1.1.0'\r\n    implementation 'com.google.maps:google-maps-services:0.14.0'\r\n    implementation 'org.slf4j:slf4j-simple:1.7.25'\r\n    implementation 'com.google.android.libraries.places:places:2.3.0'\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+--- a/app/build.gradle	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/app/build.gradle	(date 1657004239942)
+@@ -3,7 +3,6 @@
+ 
+ android {
+     compileSdkVersion 28
+-    buildToolsVersion "29.0.3"
+     defaultConfig {
+         applicationId "com.uc.cab"
+         minSdkVersion 23
+Index: ../chatapp/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../chatapp/.idea/misc.xml b/../chatapp/.idea/misc.xml
+--- a/../chatapp/.idea/misc.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../chatapp/.idea/misc.xml	(date 1656964496443)
+@@ -1,6 +1,15 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Android_Studio/DocterKit/chatapp/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/chatapp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/chatapp/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
++      </map>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/.idea/misc.xml	(date 1657004288776)
+@@ -1,6 +1,15 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Android_Studio/DocterKit/CAB/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
++        <entry key="..\:/Android_Studio/DocterKit/CAB/app/src/main/res/layout/activity_passenger_maps.xml" value="0.11302083333333333" />
++        <entry key="..\:/Android_Studio/DocterKit/CAB/app/src/main/res/layout/activity_welcome.xml" value="0.11302083333333333" />
++      </map>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">
+Index: ../CallingWithButton/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../CallingWithButton/.idea/misc.xml b/../CallingWithButton/.idea/misc.xml
+--- a/../CallingWithButton/.idea/misc.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../CallingWithButton/.idea/misc.xml	(date 1656964498784)
+@@ -1,6 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Android_Studio/DocterKit/CallingWithButton/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
++      </map>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">
+Index: ../chatapp/.idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <bytecodeTargetLevel target=\"11\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../chatapp/.idea/compiler.xml b/../chatapp/.idea/compiler.xml
+--- a/../chatapp/.idea/compiler.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../chatapp/.idea/compiler.xml	(date 1656961219655)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="11" />
++    <bytecodeTargetLevel target="1.8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"delegatedBuild\" value=\"false\" />\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n        <option name=\"useQualifiedModuleNames\" value=\"true\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/.idea/gradle.xml	(date 1656964500106)
+@@ -5,7 +5,7 @@
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+         <option name="delegatedBuild" value="false" />
+-        <option name="testRunner" value="PLATFORM" />
++        <option name="testRunner" value="GRADLE" />
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+         <option name="modules">
+@@ -14,8 +14,6 @@
+             <option value="$PROJECT_DIR$/app" />
+           </set>
+         </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+-        <option name="useQualifiedModuleNames" value="true" />
+       </GradleProjectSettings>
+     </option>
+   </component>
+Index: ../CallingWithButton/.idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <bytecodeTargetLevel target=\"11\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../CallingWithButton/.idea/compiler.xml b/../CallingWithButton/.idea/compiler.xml
+--- a/../CallingWithButton/.idea/compiler.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../CallingWithButton/.idea/compiler.xml	(date 1656961272407)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="11" />
++    <bytecodeTargetLevel target="1.8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../lifeco/app/src/main/res/layout/activity_login.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"#FEFCEB\"\r\n    tools:context=\".LoginActivity\">\r\n\r\n    <androidx.appcompat.widget.Toolbar\r\n        android:id=\"@+id/loginToolbar\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:background=\"?attr/colorPrimary\"\r\n        android:minHeight=\"?attr/actionBarSize\"\r\n        android:theme=\"?attr/actionBarTheme\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:title=\"@string/login_toolbar\"\r\n        app:titleTextColor=\"#FFFFFF\" />\r\n\r\n    <com.google.android.material.textfield.TextInputLayout\r\n        android:id=\"@+id/inputEmailLogin\"\r\n        android:layout_width=\"300dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"24dp\"\r\n        app:layout_constraintEnd_toEndOf=\"@+id/imageView19\"\r\n        app:layout_constraintStart_toStartOf=\"@+id/imageView19\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/imageView19\">\r\n\r\n        <com.google.android.material.textfield.TextInputEditText\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:hint=\"@string/user_email\"\r\n            android:inputType=\"textEmailAddress\" />\r\n    </com.google.android.material.textfield.TextInputLayout>\r\n\r\n    <com.google.android.material.textfield.TextInputLayout\r\n        android:id=\"@+id/inputPasswordLogin\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"24dp\"\r\n        app:layout_constraintEnd_toEndOf=\"@+id/inputEmailLogin\"\r\n        app:layout_constraintStart_toStartOf=\"@+id/inputEmailLogin\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/inputEmailLogin\">\r\n\r\n        <com.google.android.material.textfield.TextInputEditText\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:hint=\"@string/user_password\"\r\n            android:inputType=\"textPassword|textWebPassword\" />\r\n    </com.google.android.material.textfield.TextInputLayout>\r\n\r\n    <Button\r\n        android:id=\"@+id/btnLogin\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"8dp\"\r\n        android:background=\"#E56956\"\r\n        android:fontFamily=\"@font/poppins_bold\"\r\n        android:text=\"@string/btnLogin\"\r\n        android:textColor=\"#FFFFFF\"\r\n        app:layout_constraintEnd_toEndOf=\"@+id/inputPasswordLogin\"\r\n        app:layout_constraintHorizontal_bias=\"0.0\"\r\n        app:layout_constraintStart_toStartOf=\"@+id/inputPasswordLogin\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/textLoginStatus\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"32dp\"\r\n        android:text=\"@string/msg_no_akun\"\r\n        app:layout_constraintStart_toStartOf=\"@+id/btnLogin\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/btnLogin\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/btnDaftarAkun\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:background=\"#00FFFFFF\"\r\n        android:text=\"@string/daftar_akun\"\r\n        android:textAllCaps=\"false\"\r\n        android:textColor=\"#E56956\"\r\n        app:layout_constraintBottom_toBottomOf=\"@+id/textView\"\r\n        app:layout_constraintEnd_toEndOf=\"@+id/btnLogin\"\r\n        app:layout_constraintStart_toEndOf=\"@+id/textView\"\r\n        app:layout_constraintTop_toTopOf=\"@+id/textView\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textLoginStatus\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"8dp\"\r\n        android:textColor=\"#E43434\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/inputPasswordLogin\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView19\"\r\n        android:layout_width=\"199dp\"\r\n        android:layout_height=\"227dp\"\r\n        android:layout_marginTop=\"64dp\"\r\n        android:src=\"@drawable/lifeco\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/loginToolbar\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView21\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"36dp\"\r\n        android:alpha=\".2\"\r\n        android:src=\"@drawable/bg_bottom\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintHorizontal_bias=\"0.0\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"@+id/btnLogin\" />\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/app/src/main/res/layout/activity_login.xml b/../lifeco/app/src/main/res/layout/activity_login.xml
+--- a/../lifeco/app/src/main/res/layout/activity_login.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/app/src/main/res/layout/activity_login.xml	(date 1656949880278)
+@@ -4,36 +4,61 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    android:background="#FEFCEB"
+-    tools:context=".LoginActivity">
++    android:background="#FFFFFF"
++    tools:context="com.example.LifeCo.activities.LoginActivity">
+ 
+-    <androidx.appcompat.widget.Toolbar
+-        android:id="@+id/loginToolbar"
+-        android:layout_width="0dp"
++    <ImageView
++        android:id="@+id/imageView36"
++        android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:background="?attr/colorPrimary"
+-        android:minHeight="?attr/actionBarSize"
+-        android:theme="?attr/actionBarTheme"
++        android:src="@drawable/bg1"
++        android:scaleType="centerCrop"
++        app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:title="@string/login_toolbar"
+-        app:titleTextColor="#FFFFFF" />
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <TextView
++        android:id="@+id/selectText2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginBottom="30dp"
++        android:fontFamily="@font/poppins_bold"
++        android:text="@string/login_toolbar"
++        android:textColor="#4C8F72"
++        android:textSize="30sp"
++        app:layout_constraintBottom_toTopOf="@+id/inputEmailLogin"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.497"
++        app:layout_constraintStart_toStartOf="parent" />
++
++    <TextView
++        android:id="@+id/selectText3"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:fontFamily="@font/poppins"
++        android:text="@string/login_toolbar2"
++        android:textColor="#4C8F72"
++        android:textSize="14sp"
++        app:layout_constraintEnd_toEndOf="@+id/selectText2"
++        app:layout_constraintStart_toStartOf="@+id/selectText2"
++        app:layout_constraintTop_toBottomOf="@+id/selectText2" />
+ 
+     <com.google.android.material.textfield.TextInputLayout
+         android:id="@+id/inputEmailLogin"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+-        android:layout_marginTop="24dp"
+-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
+-        app:layout_constraintStart_toStartOf="@+id/imageView19"
+-        app:layout_constraintTop_toBottomOf="@+id/imageView19">
++        android:layout_marginTop="250dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent">
+ 
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="@string/user_email"
+-            android:inputType="textEmailAddress" />
++            android:inputType="textEmailAddress"
++            tools:ignore="TouchTargetSizeCheck" />
+     </com.google.android.material.textfield.TextInputLayout>
+ 
+     <com.google.android.material.textfield.TextInputLayout
+@@ -43,13 +68,15 @@
+         android:layout_marginTop="24dp"
+         app:layout_constraintEnd_toEndOf="@+id/inputEmailLogin"
+         app:layout_constraintStart_toStartOf="@+id/inputEmailLogin"
+-        app:layout_constraintTop_toBottomOf="@+id/inputEmailLogin">
++        app:layout_constraintTop_toBottomOf="@+id/inputEmailLogin"
++        app:passwordToggleEnabled="true">
+ 
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="@string/user_password"
+-            android:inputType="textPassword|textWebPassword" />
++            android:inputType="textPassword|textWebPassword"
++            tools:ignore="TouchTargetSizeCheck" />
+     </com.google.android.material.textfield.TextInputLayout>
+ 
+     <Button
+@@ -57,7 +84,7 @@
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="8dp"
+-        android:background="#E56956"
++        android:background="@color/colorAccent"
+         android:fontFamily="@font/poppins_bold"
+         android:text="@string/btnLogin"
+         android:textColor="#FFFFFF"
+@@ -70,6 +97,7 @@
+         android:id="@+id/textView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
++        android:layout_marginStart="8dp"
+         android:layout_marginTop="32dp"
+         android:text="@string/msg_no_akun"
+         app:layout_constraintStart_toStartOf="@+id/btnLogin"
+@@ -82,7 +110,7 @@
+         android:background="#00FFFFFF"
+         android:text="@string/daftar_akun"
+         android:textAllCaps="false"
+-        android:textColor="#E56956"
++        android:textColor="@color/colorPrimary"
+         app:layout_constraintBottom_toBottomOf="@+id/textView"
+         app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+         app:layout_constraintStart_toEndOf="@+id/textView"
+@@ -98,26 +126,4 @@
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/inputPasswordLogin" />
+ 
+-    <ImageView
+-        android:id="@+id/imageView19"
+-        android:layout_width="199dp"
+-        android:layout_height="227dp"
+-        android:layout_marginTop="64dp"
+-        android:src="@drawable/lifeco"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toBottomOf="@+id/loginToolbar" />
+-
+-    <ImageView
+-        android:id="@+id/imageView21"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="36dp"
+-        android:alpha=".2"
+-        android:src="@drawable/bg_bottom"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.0"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="@+id/btnLogin" />
+-
+ </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: ../CallingWithButton/.idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../CallingWithButton/.idea/gradle.xml b/../CallingWithButton/.idea/gradle.xml
+--- a/../CallingWithButton/.idea/gradle.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../CallingWithButton/.idea/gradle.xml	(date 1656961272414)
+@@ -4,7 +4,7 @@
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+-        <option name="testRunner" value="PLATFORM" />
++        <option name="testRunner" value="GRADLE" />
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+         <option name="modules">
+@@ -13,7 +13,6 @@
+             <option value="$PROJECT_DIR$/app" />
+           </set>
+         </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+       </GradleProjectSettings>
+     </option>
+   </component>
+Index: ../lifeco/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Top-level build file where you can add configuration options common to all sub-projects/modules.\r\n\r\nbuildscript {\r\n    repositories {\r\n        google()\r\n        jcenter()\r\n        \r\n    }\r\n    dependencies {\r\n        classpath 'com.android.tools.build:gradle:4.2.1'\r\n        classpath 'com.google.gms:google-services:4.2.0'\r\n\r\n        // NOTE: Do not place your application dependencies here; they belong\r\n        // in the individual module build.gradle files\r\n    }\r\n}\r\n\r\nallprojects {\r\n    repositories {\r\n        google()\r\n        jcenter()\r\n        mavenCentral()\r\n    }\r\n}\r\n\r\ntask clean(type: Delete) {\r\n    delete rootProject.buildDir\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/build.gradle b/../lifeco/build.gradle
+--- a/../lifeco/build.gradle	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/build.gradle	(date 1656705742526)
+@@ -7,8 +7,8 @@
+         
+     }
+     dependencies {
+-        classpath 'com.android.tools.build:gradle:4.2.1'
+-        classpath 'com.google.gms:google-services:4.2.0'
++        classpath 'com.android.tools.build:gradle:7.2.1'
++        classpath 'com.google.gms:google-services:4.3.10'
+ 
+         // NOTE: Do not place your application dependencies here; they belong
+         // in the individual module build.gradle files
+Index: ../lifeco/app/src/main/res/layout/activity_welcome.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"#FEFCEB\"\r\n    tools:context=\".welcome\">\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView30\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:alpha=\".3\"\r\n        android:background=\"#FFFFFF\"\r\n        android:src=\"@drawable/bg_bottom\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/ambulansButton\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/pasienButton\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"32dp\"\r\n        android:layout_marginTop=\"32dp\"\r\n        android:layout_marginEnd=\"32dp\"\r\n        android:background=\"#EF6256\"\r\n        android:fontFamily=\"@font/poppins_bold\"\r\n        android:text=\"@string/pasienButton\"\r\n        android:textColor=\"#FFFFFF\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/selectText\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/ambulansButton\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"32dp\"\r\n        android:layout_marginTop=\"32dp\"\r\n        android:layout_marginEnd=\"32dp\"\r\n        android:background=\"#EF6256\"\r\n        android:fontFamily=\"@font/poppins_bold\"\r\n        android:text=\"@string/ambulansButton\"\r\n        android:textColor=\"#FFFFFF\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/pasienButton\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/selectText\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"216dp\"\r\n        android:fontFamily=\"@font/poppins_bold\"\r\n        android:text=\"@string/chooseText\"\r\n        android:textSize=\"30sp\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintHorizontal_bias=\"0.497\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\" />\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/app/src/main/res/layout/activity_welcome.xml b/../lifeco/app/src/main/res/layout/activity_welcome.xml
+--- a/../lifeco/app/src/main/res/layout/activity_welcome.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/app/src/main/res/layout/activity_welcome.xml	(date 1656948124020)
+@@ -4,28 +4,17 @@
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    android:background="#FEFCEB"
++    android:background="#FFFFFF"
+     tools:context=".welcome">
+ 
+-    <ImageView
+-        android:id="@+id/imageView30"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:alpha=".3"
+-        android:background="#FFFFFF"
+-        android:src="@drawable/bg_bottom"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toBottomOf="@+id/ambulansButton" />
+-
+     <Button
+         android:id="@+id/pasienButton"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+-        android:layout_marginStart="32dp"
+-        android:layout_marginTop="32dp"
+-        android:layout_marginEnd="32dp"
+-        android:background="#EF6256"
++        android:layout_marginStart="40dp"
++        android:layout_marginTop="24dp"
++        android:layout_marginEnd="40dp"
++        android:background="#349187"
+         android:fontFamily="@font/poppins_bold"
+         android:text="@string/pasienButton"
+         android:textColor="#FFFFFF"
+@@ -37,10 +26,10 @@
+         android:id="@+id/ambulansButton"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+-        android:layout_marginStart="32dp"
+-        android:layout_marginTop="32dp"
+-        android:layout_marginEnd="32dp"
+-        android:background="#EF6256"
++        android:layout_marginStart="40dp"
++        android:layout_marginTop="24dp"
++        android:layout_marginEnd="40dp"
++        android:background="#349187"
+         android:fontFamily="@font/poppins_bold"
+         android:text="@string/ambulansButton"
+         android:textColor="#FFFFFF"
+@@ -52,12 +41,23 @@
+         android:id="@+id/selectText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:layout_marginTop="216dp"
++        android:layout_marginTop="8dp"
+         android:fontFamily="@font/poppins_bold"
+         android:text="@string/chooseText"
++        android:textColor="#4C8F72"
+         android:textSize="30sp"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.497"
+         app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/imageView30" />
++
++    <ImageView
++        android:id="@+id/imageView30"
++        android:layout_width="130dp"
++        android:layout_height="130dp"
++        android:layout_marginTop="130dp"
++        android:src="@drawable/lifeco"
++        app:layout_constraintEnd_toEndOf="@+id/selectText"
++        app:layout_constraintStart_toStartOf="@+id/selectText"
+         app:layout_constraintTop_toTopOf="parent" />
+ </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: ../lifeco/app/src/main/res/layout/activity_splash_screen_new.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:id=\"@+id/splash_cons\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"#E0DCA7\"\r\n    tools:context=\"com.example.LifeCo.activities.SplashScreenNew\"\r\n    tools:deviceIds=\"wear\">\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView35\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:src=\"@drawable/lifeco\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/obatsplash1\"\r\n        android:layout_width=\"197dp\"\r\n        android:layout_height=\"130dp\"\r\n        android:alpha=\".2\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:srcCompat=\"@drawable/obat2\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/obatsplash2\"\r\n        android:layout_width=\"197dp\"\r\n        android:layout_height=\"130dp\"\r\n        android:alpha=\".2\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:srcCompat=\"@drawable/obat2\" />\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/app/src/main/res/layout/activity_splash_screen_new.xml b/../lifeco/app/src/main/res/layout/activity_splash_screen_new.xml
+--- a/../lifeco/app/src/main/res/layout/activity_splash_screen_new.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/app/src/main/res/layout/activity_splash_screen_new.xml	(date 1656874210366)
+@@ -5,35 +5,18 @@
+     android:id="@+id/splash_cons"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+-    android:background="#E0DCA7"
++    android:background="#FFFFFF"
+     tools:context="com.example.LifeCo.activities.SplashScreenNew"
+     tools:deviceIds="wear">
+ 
+     <ImageView
+         android:id="@+id/imageView35"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
++        android:layout_width="200dp"
++        android:layout_height="200dp"
+         android:src="@drawable/lifeco"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+ 
+-    <ImageView
+-        android:id="@+id/obatsplash1"
+-        android:layout_width="197dp"
+-        android:layout_height="130dp"
+-        android:alpha=".2"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:srcCompat="@drawable/obat2" />
+-
+-    <ImageView
+-        android:id="@+id/obatsplash2"
+-        android:layout_width="197dp"
+-        android:layout_height="130dp"
+-        android:alpha=".2"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:srcCompat="@drawable/obat2" />
+ </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Wed Jun 10 12:24:57 ICT 2020\r\ndistributionBase=GRADLE_USER_HOME\r\ndistributionPath=wrapper/dists\r\nzipStoreBase=GRADLE_USER_HOME\r\nzipStorePath=wrapper/dists\r\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-6.1.1-all.zip\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/gradle/wrapper/gradle-wrapper.properties b/gradle/wrapper/gradle-wrapper.properties
+--- a/gradle/wrapper/gradle-wrapper.properties	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/gradle/wrapper/gradle-wrapper.properties	(date 1657004239974)
+@@ -3,4 +3,4 @@
+ distributionPath=wrapper/dists
+ zipStoreBase=GRADLE_USER_HOME
+ zipStorePath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-6.1.1-all.zip
++distributionUrl=https\://services.gradle.org/distributions/gradle-7.3.3-all.zip
+Index: ../lifeco/app/src/main/res/layout/activity_chat_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:orientation=\"vertical\"\r\n    tools:context=\".ChatMainActivity\">\r\n\r\n    <com.google.android.material.appbar.AppBarLayout\r\n        android:id=\"@+id/appbarlayout\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        tools:ignore=\"MissingConstraints\">\r\n\r\n        <androidx.appcompat.widget.Toolbar\r\n            android:id=\"@+id/toolbar\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"@color/colorPrimaryDark\"\r\n            android:theme=\"@style/ThemeOverlay.AppCompat.Dark.ActionBar\"\r\n            app:popupTheme=\"@style/MenuStyle\">\r\n\r\n            <de.hdodenhof.circleimageview.CircleImageView\r\n                android:id=\"@+id/profile_image\"\r\n                android:layout_width=\"30dp\"\r\n                android:layout_height=\"30dp\" />\r\n\r\n            <TextView\r\n                android:id=\"@+id/username\"\r\n                android:layout_width=\"wrap_content\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:layout_marginStart=\"25dp\"\r\n                android:layout_marginLeft=\"25dp\"\r\n                android:textColor=\"#fff\"\r\n                android:textStyle=\"bold\" />\r\n\r\n\r\n        </androidx.appcompat.widget.Toolbar>\r\n\r\n        <com.google.android.material.tabs.TabLayout\r\n            android:id=\"@+id/tab_layout\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"@color/colorPrimaryDark\"\r\n            app:layout_constraintTop_toBottomOf=\"@+id/appbarlayout\"\r\n            app:tabIndicatorColor=\"#fff\"\r\n            app:tabSelectedTextColor=\"#fff\"\r\n            app:tabTextColor=\"#fff\" />\r\n\r\n    </com.google.android.material.appbar.AppBarLayout>\r\n\r\n\r\n    <androidx.viewpager.widget.ViewPager\r\n        android:id=\"@+id/view_pager\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"0dp\"\r\n        app:layout_behavior=\"@string/appbar_scrolling_view_behavior\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintHorizontal_bias=\"0.0\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/appbarlayout\"\r\n        app:layout_constraintVertical_bias=\"0.0\" />\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/app/src/main/res/layout/activity_chat_main.xml b/../lifeco/app/src/main/res/layout/activity_chat_main.xml
+--- a/../lifeco/app/src/main/res/layout/activity_chat_main.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/app/src/main/res/layout/activity_chat_main.xml	(date 1656948124023)
+@@ -49,7 +49,8 @@
+             app:layout_constraintTop_toBottomOf="@+id/appbarlayout"
+             app:tabIndicatorColor="#fff"
+             app:tabSelectedTextColor="#fff"
+-            app:tabTextColor="#fff" />
++            app:tabTextColor="#fff"
++            tools:ignore="SpeakableTextPresentCheck" />
+ 
+     </com.google.android.material.appbar.AppBarLayout>
+ 
+@@ -64,6 +65,7 @@
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/appbarlayout"
+-        app:layout_constraintVertical_bias="0.0" />
++        app:layout_constraintVertical_bias="0.0"
++        tools:ignore="SpeakableTextPresentCheck" />
+ 
+ </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: ../lifeco/app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>apply plugin: 'com.android.application'\r\napply plugin: 'com.google.gms.google-services'\r\n\r\nandroid {\r\n    compileSdkVersion 29\r\n    buildToolsVersion \"29.0.3\"\r\n    compileOptions {\r\n        sourceCompatibility JavaVersion.VERSION_1_8\r\n        targetCompatibility JavaVersion.VERSION_1_8\r\n    }\r\n    defaultConfig {\r\n        applicationId \"com.example.cobanavfragment\"\r\n        multiDexEnabled true\r\n        minSdkVersion 23\r\n        targetSdkVersion 29\r\n        versionCode 1\r\n        versionName \"1.0\"\r\n        testInstrumentationRunner \"androidx.test.runner.AndroidJUnitRunner\"\r\n        android.defaultConfig.vectorDrawables.useSupportLibrary = true\r\n    }\r\n    buildTypes {\r\n        release {\r\n            minifyEnabled false\r\n            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'\r\n        }\r\n    }\r\n}\r\n\r\ndependencies {\r\n    implementation fileTree(dir: 'libs', include: ['*.jar'])\r\n    implementation 'androidx.appcompat:appcompat:1.1.0'\r\n    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'\r\n    implementation 'androidx.legacy:legacy-support-v4:1.0.0'\r\n    implementation 'com.google.firebase:firebase-firestore:17.1.2'\r\n    implementation 'androidx.wear:wear:1.0.0'\r\n    testImplementation 'junit:junit:4.12'\r\n    androidTestImplementation 'androidx.test.ext:junit:1.1.1'\r\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'\r\n    implementation 'com.google.android.material:material:1.1.0'\r\n    implementation 'com.android.support:multidex:1.0.3'\r\n    implementation 'com.google.android.material:material:1.1.0'\r\n    implementation 'com.google.firebase:firebase-auth:19.3.1'\r\n    implementation 'com.google.firebase:firebase-database:19.3.0'\r\n    implementation 'com.google.firebase:firebase-core:17.4.2'\r\n    implementation 'com.firebaseui:firebase-ui-firestore:6.2.1'\r\n    implementation 'com.google.firebase:firebase-storage:19.1.1'\r\n    implementation 'androidx.cardview:cardview:1.0.0'\r\n    implementation 'com.rengwuxian.materialedittext:library:2.1.4'\r\n\r\n    implementation 'de.hdodenhof:circleimageview:2.2.0'\r\n    implementation 'com.github.bumptech.glide:glide:4.11.0'\r\n\r\n    testImplementation 'junit:junit:4.12'\r\n    androidTestImplementation 'androidx.test.ext:junit:1.1.1'\r\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'\r\n\r\n    implementation 'com.google.firebase:firebase-auth:16.0.5'\r\n    implementation 'com.google.firebase:firebase-database:16.0.4'\r\n    implementation 'com.google.android.gms:play-services-maps:16.1.0'\r\n    implementation 'com.google.android.gms:play-services-location:16.0.0'\r\n    testImplementation 'junit:junit:4.12'\r\n    androidTestImplementation 'androidx.test.ext:junit:1.1.1'\r\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'\r\n    implementation 'com.google.android.material:material:1.1.0'\r\n    implementation 'com.firebase:geofire-java:3.0.0'\r\n    implementation 'com.github.jd-alexander:library:1.1.0'\r\n    implementation 'com.google.maps:google-maps-services:0.14.0'\r\n    implementation 'org.slf4j:slf4j-simple:1.7.25'\r\n    implementation 'com.google.android.libraries.places:places:2.3.0'\r\n    compileOnly 'com.google.android.wearable:wearable:2.6.0'\r\n\r\n    implementation 'com.journeyapps:zxing-android-embedded:3.3.0'\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/app/build.gradle b/../lifeco/app/build.gradle
+--- a/../lifeco/app/build.gradle	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/app/build.gradle	(date 1656950235531)
+@@ -2,8 +2,7 @@
+ apply plugin: 'com.google.gms.google-services'
+ 
+ android {
+-    compileSdkVersion 29
+-    buildToolsVersion "29.0.3"
++    compileSdkVersion 32
+     compileOptions {
+         sourceCompatibility JavaVersion.VERSION_1_8
+         targetCompatibility JavaVersion.VERSION_1_8
+@@ -12,7 +11,7 @@
+         applicationId "com.example.cobanavfragment"
+         multiDexEnabled true
+         minSdkVersion 23
+-        targetSdkVersion 29
++        targetSdkVersion 32
+         versionCode 1
+         versionName "1.0"
+         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+@@ -24,6 +23,11 @@
+             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+         }
+     }
++    task wrapper(type: Wrapper){
++        gradleVersion = '7.2'
++    }
++    task prepareKotlinBuildScriptModel {
++    }
+ }
+ 
+ dependencies {
+Index: ../lifeco/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/.idea/misc.xml b/../lifeco/.idea/misc.xml
+--- a/../lifeco/.idea/misc.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/.idea/misc.xml	(date 1656950230831)
+@@ -1,6 +1,25 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/activity_chat_main.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/activity_detail.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/activity_login.xml" value="0.264" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/activity_main.xml" value="0.264" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/activity_splash_screen_new.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/activity_welcome.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/bar_layout.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/fragment_account.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/fragment_barcode.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
++        <entry key="..\:/Android_Studio/DocterKit/lifeco/app/src/main/res/layout/fragment_users.xml" value="0.25416666666666665" />
++      </map>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">
+Index: ../lifeco/.idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n        <option name=\"useQualifiedModuleNames\" value=\"true\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/.idea/gradle.xml b/../lifeco/.idea/gradle.xml
+--- a/../lifeco/.idea/gradle.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/.idea/gradle.xml	(date 1656949999955)
+@@ -4,17 +4,16 @@
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+-        <option name="testRunner" value="PLATFORM" />
++        <option name="testRunner" value="GRADLE" />
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="gradleJvm" value="11" />
+         <option name="modules">
+           <set>
+             <option value="$PROJECT_DIR$" />
+             <option value="$PROJECT_DIR$/app" />
+           </set>
+         </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+-        <option name="useQualifiedModuleNames" value="true" />
+       </GradleProjectSettings>
+     </option>
+   </component>
+Index: ../lifeco/app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"menu_home\">Home</string>\r\n    <string name=\"menu_history\">History</string>\r\n    <string name=\"menu_account\">Account</string>\r\n\r\n    <!-- TODO: Remove or change this placeholder text -->\r\n    <string name=\"hello_blank_fragment\">Hello blank fragment</string>\r\n    <string name=\"menu_darurat\">Darurat</string>\r\n    <string name=\"menu_sejarah\">Sejarah</string>\r\n    <string name=\"menu_akun\">Akun</string>\r\n    <string name=\"quote\">Kekayaan manusia yang terbesar adalah sehat walafiat</string>\r\n    <string name=\"login_toolbar\">Login</string>\r\n    <string name=\"user_email\">Email</string>\r\n    <string name=\"user_password\">Password</string>\r\n    <string name=\"btnLogin\">Login</string>\r\n    <string name=\"msg_no_akun\">Tidak mempunyai akun?</string>\r\n    <string name=\"daftar_akun\">Daftar Sekarang</string>\r\n    <string name=\"regis_toolbar\">Daftar Akun</string>\r\n    <string name=\"inpNamaRegis\">Nama Lengkap</string>\r\n    <string name=\"inpEmailRegis\">Email</string>\r\n    <string name=\"inpPasswordRegis\">Password</string>\r\n    <string name=\"textGender\">Jenis Kelamin</string>\r\n    <string name=\"textGolDarah\">Golongan Darah</string>\r\n    <string name=\"inpAlamatRegis\">Alamat</string>\r\n    <string name=\"inpNoHPRegis\">No. HP</string>\r\n    <string name=\"textTglLahirRegis\">Tanggal Lahir</string>\r\n    <string name=\"inpNoBPJSRegis\">No. BPJS</string>\r\n    <string name=\"inpNoKTPRegis\">No. KTP</string>\r\n    <string name=\"dftrAkunRegis\">Daftar Akun</string>\r\n    <string name=\"inpPenyakitSendiriRegis\">Riwayat Penyakit Sendiri</string>\r\n    <string name=\"inpPenyakitKeluargaRegis\">Riwayat Penyakit Keluarga</string>\r\n    <string name=\"inpKeluhanUtamaRegis\">Keluhan Utama</string>\r\n    <string name=\"inpObatRegis\">Obat-obatan yang telah dikonsumsi</string>\r\n    <string name=\"inpAlergiObatRegis\">Alergi obat-obatan</string>\r\n    <string name=\"inpAlergiMakananRegis\">Alergi Makanan</string>\r\n    <string name=\"inpTekananDarahRegis\">Tekanan Darah</string>\r\n    <string name=\"inpGulaDarahRegis\">Gula Darah</string>\r\n    <string name=\"inpNoAsuransiRegis\">No. Asuransi</string>\r\n    <string name=\"inpTanggalFormatRegis\">yyyy/mm/dd</string>\r\n    <string name=\"btnLogOut\">Log Out</string>\r\n    <string name=\"txtInformasiPersonal\">Informasi Personal</string>\r\n    <string name=\"toolbarProfilAkun\">Profil Akun</string>\r\n    <string name=\"btnUpdateAkun\">Update Akun</string>\r\n    <string name=\"btnChat\">Chat</string>\r\n    <string name=\"inpUsernameRegis\">Username</string>\r\n    <string name=\"actPanggil\">Melakukan pemanggilan darurat</string>\r\n\r\n\r\n    <string-array name=\"inpJenisKelaminGroup\">\r\n        <item>Perempuan</item>\r\n        <item>Laki-laki</item>\r\n    </string-array>\r\n\r\n    <string-array name=\"inpGolDarahGroup\">\r\n        <item>A</item>\r\n        <item>B</item>\r\n        <item>AB</item>\r\n        <item>O</item>\r\n    </string-array>\r\n    <string name=\"title_activity_passenger_maps\">Map</string>\r\n    <string name=\"title_activity_driver_maps\">Map</string>\r\n    <string name=\"txtKesehatanPribadi\">Kesehatan Pribadi</string>\r\n    <string name=\"txtTekananDarah\">Tekanan Darah</string>\r\n    <string name=\"mmhg\">mmHg</string>\r\n    <string name=\"CallBtn\">Call</string>\r\n    <string name=\"ChatNowBtn\">Chat Now</string>\r\n    <string name=\"ambulansButton\">Ambulans</string>\r\n    <string name=\"pasienButton\">Pasien</string>\r\n    <string name=\"chooseText\">Pilih Tipe Akun</string>\r\n    <string name=\"txtRiwayatKesehatan\" />\r\n    <string name=\"textRiwayatKesehatan\">Riwayat Kesehatan</string>\r\n    <string name=\"txtKeluhan\">Keluhan</string>\r\n    <string name=\"hintRumahSakit\">Nama Rumah Sakit</string>\r\n    <string name=\"inpNamaDriverRegis\">Nama Lengkap</string>\r\n    <string name=\"inpEmailDriverRegis\">Email</string>\r\n    <string name=\"inpPasswordDriverRegis\">Password</string>\r\n    <string name=\"inpNoTelpDriverRegis\">No. Telepon</string>\r\n    <string name=\"inpRumahSakitDriverRegis\">Nama Rumah Sakit</string>\r\n    <string name=\"btnDaftarAkunText\">Daftar Akun</string>\r\n    <string name=\"title_activity_splash_screen_new\">SplashScreenNew</string>\r\n    <!--\r\n    This string is used for square devices and overridden by hello_world in\r\n    values-round/strings.xml for round devices.\r\n    -->\r\n    <string name=\"hello_world\">Hello Square World!</string>\r\n    <string name=\"menu_barcode\">Barcode</string>\r\n\r\n</resources>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/app/src/main/res/values/strings.xml b/../lifeco/app/src/main/res/values/strings.xml
+--- a/../lifeco/app/src/main/res/values/strings.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/app/src/main/res/values/strings.xml	(date 1656949880282)
+@@ -9,7 +9,8 @@
+     <string name="menu_sejarah">Sejarah</string>
+     <string name="menu_akun">Akun</string>
+     <string name="quote">Kekayaan manusia yang terbesar adalah sehat walafiat</string>
+-    <string name="login_toolbar">Login</string>
++    <string name="login_toolbar">Selamat Datang!</string>
++    <string name="login_toolbar2">Sudah Mempunyai Akun?</string>
+     <string name="user_email">Email</string>
+     <string name="user_password">Password</string>
+     <string name="btnLogin">Login</string>
+Index: ../lifeco/app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n    <color name=\"colorPrimary\">#594F57</color>\r\n    <color name=\"colorPrimaryDark\">#3F363F</color>\r\n    <color name=\"colorAccent\">#DD403A</color>\r\n</resources>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lifeco/app/src/main/res/values/colors.xml b/../lifeco/app/src/main/res/values/colors.xml
+--- a/../lifeco/app/src/main/res/values/colors.xml	(revision e41ab3a02177226599c419ffadf3defd98c66717)
++++ b/../lifeco/app/src/main/res/values/colors.xml	(date 1656948238850)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
+-    <color name="colorPrimary">#594F57</color>
+-    <color name="colorPrimaryDark">#3F363F</color>
+-    <color name="colorAccent">#DD403A</color>
++    <color name="colorPrimary">#8ACAC0</color>
++    <color name="colorPrimaryDark">#DAD5CB</color>
++    <color name="colorAccent">#349187</color>
+ </resources>

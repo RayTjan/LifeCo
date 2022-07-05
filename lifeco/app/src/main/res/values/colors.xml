@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#594F57</color>
-    <color name="colorPrimaryDark">#3F363F</color>
-    <color name="colorAccent">#DD403A</color>
+    <color name="colorPrimary">#8ACAC0</color>
+    <color name="colorPrimaryDark">#DAD5CB</color>
+    <color name="colorAccent">#349187</color>
 
     <!--  Create Note  -->
     <color name="saveButtonPressed">#1FFFFFFF</color>

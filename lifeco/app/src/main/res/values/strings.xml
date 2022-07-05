@@ -6,7 +6,8 @@
     <string name="menu_sejarah">Sejarah</string>
     <string name="menu_akun">Akun</string>
     <string name="quote">Kekayaan manusia yang terbesar adalah sehat walafiat</string>
-    <string name="login_toolbar">Login</string>
+    <string name="login_toolbar">Selamat Datang!</string>
+    <string name="login_toolbar2">Sudah Mempunyai Akun?</string>
     <string name="user_email">Email</string>
     <string name="user_password">Password</string>
     <string name="btnLogin">Login</string>
